@@ -43,6 +43,16 @@ html {
         opacity: 1;
     }
 }
+@keyframes fadeInLeft {
+    from {
+        transform: translateX(var(--fade-in-from));
+        opacity: 0;
+    }
+    to {
+        transform: translateX(var(--fade-in-to));
+        opacity: 1;
+    }
+}
 @keyframes growth {
     from {
         transform: scale(var(--growth-from));
@@ -55,11 +65,11 @@ html {
 }
 @keyframes shrink {
     from {
-        transform: scale(var(--growth-from));
+        transform: scale(var(--shrink-from));
         opacity: 1;
     }
     to {
-        transform: scale(var(--growth-to));
+        transform: scale(var(--shrink-to));
         opacity: 0;
     }
 }
@@ -160,7 +170,7 @@ html {
     text-decoration: none;
     transition: all 0.3s;
     position: relative;
-    z-index: 9999;
+    /* z-index: 9999; */
 }
 .product-item:hover {
     transform: translateY(-1px);
@@ -197,11 +207,11 @@ html {
     text-decoration: line-through;
     font-weight: var(--font-weight);
     color: var(--old-price-color);
+    padding: 0 6px 0 0;
 }
 .product-item__new-price-unit {
     font-weight: var(--font-weight);
     font-size: 1.2rem;
-    padding: 0 0 0 6px;
 }
 .product-item__new-price {
     font-weight: var(--font-weight);
@@ -214,9 +224,9 @@ html {
     left: 0;
     right: 0;
     bottom: 0;
-    z-index: 9999;
-    display: none;
+    z-index: 10;
     transition: all linear .3s;
+    display: none;  
 }
 .modal.js-modal.open {
     display: block;
@@ -224,36 +234,31 @@ html {
 .modal.js-modal.open.modal--animate-show {
     --growth-from: 0.2;
     --growth-to: 1; 
-    animation: growth linear 0.3s;
+    animation: growth linear 0.2s;
 }
-/* .check-btn:checked ~ .modal {
-    --growth-from: 0.2;
-    --growth-to: 1;
-    animation: growth linear 0.2s, fadeIn linear 0.2s;
-    display: block;
-} */
-/* .check-btn ~ .modal {
-    --growth-from: 1;
-    --growth-to: 0;
-    animation: shrink linear 0.2s;
-} */
 .modal__overlay {
     position: absolute;
     width: 100%;
     height: 100%;
     background-color: rgba(0, 0, 0, 0.8);
+    
 }
 .modal__body {
     position: absolute;
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-    z-index: 1;
+    z-index: 9999;
 }
-/* .modal__body .search-form {
-    
-} */
-/* .modal__body .search-form__input {
+/* Search form */
+.modal__search-form {
+    position: relative;
+    display: none;
+}
+.modal__search-form--active {
+    display: block;
+}
+.search-form__input {
     background-color: var(--white-color);
     border-color: var(--border-color);
     border-width:  0 0 0 0;
@@ -265,9 +270,62 @@ html {
     height: 42px;
     text-align: center;
     outline: none;
-} */
+}
+.search-form__input-icon {
+    position: absolute;
+    top: 10px;
+    right: -200px;
+    font-size: 2rem;
+    z-index: 9999;
+    color: var(--secondary-color);
+    cursor: pointer;
+    padding: 4px;
+}
+.search-form__input-icon:hover {
+    opacity: 0.7;
+}
+/* Cart list */
+.modal__cart-list {
+    background-color: var(--white-color);
+    width: 350px;
+    max-width: 100%;
+    height: 100vh;
+    padding: 48px 32px 32px;
+    transition: all 0.2s ease-in;
+    display: none;
+}
+.modal__cart-list--active {
+    display: block;
+    --fade-in-from: 300%;
+    --fade-in-to: 168%;
+    animation: fadeInLeft 0.3s linear forwards;
+}
+.modal__cart-list-icon {
+    font-size: 2.4rem;
+    margin: 0 0 20px;
+    color: var(--secondary-color);
+    padding: 4px;
+    margin-left: 97%;
+    cursor: pointer;
+}
+.modal__cart-list-icon:hover {
+    opacity: 0.8;
+}
+.modal__cart-list-body {
 
+}
+.modal__cart-list-label {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    font-weight: var(--font-weight);
+}
 /* video about */
+.modal__video-about {
+    display: none;
+}
+.modal__video-about.modal__video-about--active {
+    display: block;
+}
 .modal__video-about-icon {
     color: var(--border-color);
     font-size: 2.4rem;

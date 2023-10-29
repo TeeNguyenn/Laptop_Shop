@@ -121,16 +121,16 @@
                         </li>
                     </ul>
 
-                    <label for="overlay-btn" class="navbar__search">
+                    <div class="navbar__search js-navbar__search">
                         <i class="navbar__search-icon fa-solid fa-magnifying-glass"></i>
-                    </label>
+                    </div>
 
-                    <div class="navbar__shopping-cart">
-                        <a href="../nav/about.html" class="shopping-cart-link">
+                    <div class="navbar__shopping-cart js-navbar__shopping-cart">
+                        <div class="shopping-cart-link">
                             <span class="shopping-cart-link-total">$0</span>
                             <i class="fa-sharp fa-solid fa-bag-shopping"></i>
                             <span class="shopping-cart-link-qty">0</span>
-                        </a>
+                        </div>
                     </div>
 
                     <div class="navbar__infor">
@@ -687,7 +687,7 @@
                         <div class="col l-2">
                             <a href="../details/product.html" class="product-item">
                                 <img src="../../assets/img/acer3.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Acer Nitro 5 Tiger AN515 i5 12500H M2.SSD 512GB FHD 144Hz NVIDIA GeForce RTX 3050 4GB</h2>
+                                <h2 class="product-item__title">Acer Nitro 5 Tiger AN515 i5 12500H M2.SSD 512GB FHD 144Hz NVIDIA GeForce RTX 3050</h2>
                                 <div class="product-item__price">
                                     <!-- <span class="product-item__old-price-unit">₫</span> -->
                                     <!-- <span class="product-item__old-price">$40</span> -->
@@ -1080,8 +1080,20 @@
 
         <div class="modal__body">
             <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
                 <!-- Video about -->
-                <div class="modal__video-about">
+                <div class="modal__video-about js-modal__video-about">
                     <i class="modal__video-about-icon fa-solid fa-xmark"></i>
                     <div class="modal__caontainer">
                         <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>

@@ -11,6 +11,12 @@
     background-color: #e5e6e8;
     padding: 8px 0;
     position: relative;
+    z-index: 10;
+}
+.header-top--active {
+    top: 0;
+    right: 0;
+    left: 0;
     z-index: 9999;
 }
 .header-top .header-top-wrapper {
@@ -209,16 +215,22 @@
     top: 1px;
     padding: 0 0 0 8px;
 }
-.navbar__search:hover {
+.navbar__search {
+    padding: 4px 8px;
     cursor: pointer;
+}
+.navbar__search:hover .navbar__search-icon {
+    color: var(--accent-color);
 }
 .navbar__search-icon {
     font-weight: 900;
 }
 .navbar__shopping-cart {
-    padding: 0 32px;
+    margin: 0 20px;
+    padding: 0 6px;
+    cursor: pointer;
 }
-.navbar__shopping-cart:hover a {
+.navbar__shopping-cart:hover .shopping-cart-link {
     color: var(--accent-color);
 }
 .shopping-cart-link {

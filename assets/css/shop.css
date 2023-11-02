@@ -1,0 +1,61 @@
+/* Banner */
+.shop-banner {
+    padding: 86px 0 125px 0;
+    background-image: url('../img/hero-shop.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.shop-banner__container {
+    position: relative;
+}
+.shop-banner__heading {
+    font-size: 7.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    line-height: 7.2rem;
+    margin-bottom: 16px;
+}
+.shop-banner__body {
+    display: flex;
+    align-items: center;
+}
+.shop-banner__wrap {
+    text-decoration: none;
+}
+.shop-banner__wrap:hover .shop-banner__icon,
+.shop-banner__wrap:hover .shop-banner__label {
+    color: var(--accent-color);
+}
+.shop-banner__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.shop-banner__label {
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.shop-banner__seperate {
+    padding: 0 16px;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    font-size: 1.4rem;
+}
+.shop-banner__title {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--accent-color);
+    font-weight: var(--font-weight);
+} 
+
+.featured.shop__featured {
+    padding-top: 100px;
+}
+
+.brands.shop__brands {
+    padding: 100px 0;
+}

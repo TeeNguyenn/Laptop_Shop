@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Kompi Shop</title>
+    <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/login.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+
+    <!-- set icon -->
+    <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+
+    <div class="login">
+        <div class="login__container">
+            <div class="login__wrapper">
+                <a href="../home/index.html" class="login__logo-link">
+                    <img src="../../assets/img/logo-kompi-dark.png" alt="" class="login__img-link">
+                </a>
+                <div class="login__body">
+                    <div class="header-label">TRACK ORDER</div>
+                    <h2 class="login__title">Đăng nhập</h2>
+                    <p class="login__text">Để bắt đầu trải nghiệm trang web của chúng tôi, xin vui lòng đăng nhập bằng tài khoản của bạn.</p>
+                    <div class="login__input-container">
+                        <input type="text" class="login__user">
+                    </div>
+                    <div class="login__input-container">
+                        <input type="password" name="" id="" class="login__pass">
+                    </div>
+                    <div class="login__container">
+                        <input type="checkbox" name="" id="" class="login__checkbox">
+                        <span class="login__remember">Nhớ tôi</span>
+                    </div>
+                    <button class="login__btn">
+                        <span class="login__btn-label">Quên mật khẩu?</span>
+                    </button>
+                    <a href="" class="login__lost-pass"></a>
+                </div>
+            </div>
+        </div>
+        <div class="login__img-wrap">
+            <img src="../../assets/img/login-img.jpg" alt="" class="login__img">
+        </div>
+    </div>
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/home.js"></script>
+</body>
+</html>

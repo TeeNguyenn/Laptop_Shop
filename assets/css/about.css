@@ -1,0 +1,201 @@
+/* Banner */
+/*banner con cac*/
+.about-banner {
+    padding: 86px 0 125px 0;
+    background-image: url('../img/hero-about.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.about-banner__container {
+    position: relative;
+}
+.about-banner__heading {
+    font-size: 7.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    line-height: 7.2rem;
+    margin-bottom: 16px;
+}
+.about-banner__body {
+    display: flex;
+    align-items: center;
+}
+.about-banner__wrap {
+    text-decoration: none;
+}
+.about-banner__wrap:hover .about-banner__icon,
+.about-banner__wrap:hover .about-banner__label {
+    color: var(--accent-color);
+}
+.about-banner__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.about-banner__label {
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.about-banner__seperate {
+    padding: 0 16px;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    font-size: 1.4rem;
+}
+.about-banner__title {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--accent-color);
+    font-weight: var(--font-weight);
+}   
+/* Description */
+.about-dsc {
+    padding: 100px 0;
+}
+.about-dsc__header {
+
+}
+.about-dsc__wrapper {
+}
+.about-dsc__label {
+    font-size: 4.8rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+    line-height: 4.8rem;
+    margin: 0 0 32px 0;
+}
+.about-dsc__text1 {
+    margin: 0 0 32px 0;
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    line-height: 2.4rem;
+}
+.about-dsc__text2 {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    line-height: 2.4rem;
+}
+.about-dsc___img-wrapper {
+
+}
+.about-dsc__img {
+    height: auto;
+    max-width: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+.about-dsc__midle {
+    margin: 100px 0;
+}
+.about-dsc__middle-mission {
+    width: 100%;
+    display: flex;
+}
+.about-dsc__middle-mission-video {
+    position: relative;
+    flex: 1;
+}
+.about-dsc__middle-mission-video-bg {
+    position: relative;
+    cursor: pointer;
+}
+.about-dsc__middle-mission-video-bg:hover .about-dsc__middle-mission-video-icon {
+    opacity: 1;
+}
+.about-dsc__middle-mission-video-img {
+    display: block;
+    height: 380px;
+    width: 100%;
+    object-fit: cover;
+    object-position: center center;
+}
+.about-dsc__middle-mission-video-icon {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 10rem;
+    color: var(--white-color);
+    opacity: 0.8;
+    transform: translate(-50%, -50%);
+    transition: all 0.3s linear;
+}
+.about-dsc__middle-mission-embed {
+    position: absolute;
+    top: 0;
+    z-index: 10;
+    display: none;
+    transition: all 0.2s ease-in;
+    width: 100%;
+}
+.about-dsc__middle-mission-embed--active {
+    display: block;
+}
+.about-dsc__middle-mission-content {
+    padding: 0 0 0 32px;
+    width: 43%;
+}
+.about-dsc__middle-mission-title {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+    margin-bottom: 32px;
+}
+.about-dsc__middle-mission-text {
+    margin: 0 0 32px 0;
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    line-height: 2.4rem;
+}
+.about-dsc__middle-mission-list {
+    padding-left: 28px;
+}
+.about-dsc__middle-mission-item {
+    color: var(--text-color);
+    font-size: 1.8rem;
+    font-weight: var(--font-weight);
+    line-height: 2.6rem;
+}   
+.about-dsc__convince {
+    background-color: var(--background-color);
+    padding: 32px;
+    box-shadow: 5px 5px 5px rgba(0 , 0, 0, 0.2);
+}
+.about-dsc__convince-wrap {
+    display: flex;  
+}
+.about-dsc__convince-img-container {
+    padding: 8px;
+    background-color: var(--white-color);
+}
+.about-dsc__convince-img {
+    height: auto;
+}
+.about-dsc__convince-title {
+    padding: 0 0 0 32px;
+    font-size: 3.2rem;
+    line-height: 3.2rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+}
+.about-dsc__convince-text {
+    margin: 32px 0 0;
+    color: var(--secondary-color);
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+}
+.about-testimonials {
+    background-image: none;
+    background-color: var(--background-color);
+    padding: 100px 0;
+}
+.testimonials__title.about-testimonials__title {
+    color: var(--text-color);
+}
+.testimonials__text.about-testimonials__text {
+    color: var(--secondary-color);
+}

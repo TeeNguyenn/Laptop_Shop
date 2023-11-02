@@ -4,13 +4,14 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Kompi Shop</title>
+
     <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
-    <!-- concac ne Tien -->
+
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/base.css">
     <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/shop.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
-    
     <!-- set icon -->
     <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
@@ -58,27 +59,13 @@
 
                     <ul class="navbar__list">
                         <li class="navbar__list-item">
-                            <a href="../home/index.html" class="navbar__list-item-link navbar__list-item-link--active">Trang chủ</a>
+                            <a href="../home/index.html" class="navbar__list-item-link">Trang chủ</a>
                         </li>
                         <li class="navbar__list-item">
                             <a href="../nav/about.html" class="navbar__list-item-link">About</a>
                         </li>
                         <li class="navbar__list-item">
-                            <a href="../nav/shop.html" class="navbar__list-item-link">
-                                Shop
-                                <!-- <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i> -->
-                            </a>
-                            <!-- <ul class="navbar__shop-menu">
-                                <li class="navbar__shop-otions">
-                                    <a href="../nav/about.html" class="navbar__shop-option-link">Chi tiết sản phẩm</a>
-                                </li>
-                                <li class="navbar__shop-otions">
-                                    <a href="../nav/about.html" class="navbar__shop-option-link">Theo dõi đơn hàng</a>
-                                </li>
-                                <li class="navbar__shop-otions">
-                                    <a href="../nav/about.html" class="navbar__shop-option-link">Trang đăng nhập</a>
-                                </li>
-                            </ul> -->
+                            <a href="../nav/shop.html" class="navbar__list-item-link navbar__list-item-link--active">Shop</a>
                         </li>
                         <li class="navbar__list-item">
                             <a href="../nav/about.html" class="navbar__list-item-link">
@@ -169,166 +156,29 @@
            
         </header>
         <!-- End Header -->
-
-        <!-- Begin Container -->
-        <div class="container">
-            <div class="intro">
-                <div class="intro_background-overlay"></div>
-
-                <div class="grid wide intro__main">
-                    <h1 class="intro__main-heading">CÓ TẤT CẢ</h1>
-                    <h3 class="intro__main-title">Mạnh mẽ, Nhỏ gọn, Đa năng</h3>
-                    <p class="intro__main-dsc">Truyền phát, sáng tạo và cạnh tranh ở cấp độ cao nhất với các tính năng dẫn đầu ngành và kiến trúc kết hợp mới nhất</p>
-                    <a href="../nav/about.html" class="intro__main-btn-link">
-                        <span class="intro__main-btn-label">Mua ngay</span>
-                        <i class="intro__main-btn-icon fa-solid fa-chevron-right"></i>
-                    </a>
-
-                    <ul class="intro__list">
-                        <li class="intro__item">
-                            <div class="intro__item-overlay"></div>
-                            <div class="intro__item-body">
-                                <h5 class="intro__item-title">Giá đặc biệt</h5>
-                                <div class="intro__item-dsc">Truyền phát, sáng tạo và cạnh tranh</div>
-                                <a href="../nav/about.html" class="itro__item-link">
-                                    <span class="intro__item-label">Mua ngay</span>
-                                    <i class="intro__item-icon fa-solid fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="intro__item">
-                            <div class="intro__item-overlay"></div>
-                            <div class="intro__item-body">
-                                <h5 class="intro__item-title">Siêu ưu đãi</h5>
-                                <div class="intro__item-dsc">Truyền phát, sáng tạo và cạnh tranh</div>
-                                <a href="../nav/about.html" class="itro__item-link">
-                                    <span class="intro__item-label">Mua ngay</span>
-                                    <i class="intro__item-icon fa-solid fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </li>
-                        <li class="intro__item">
-                            <div class="intro__item-overlay"></div>
-                            <div class="intro__item-body">
-                                <h5 class="intro__item-title">Black Friday</h5>
-                                <div class="intro__item-dsc">Truyền phát, sáng tạo và cạnh tranh</div>
-                                <a href="../nav/about.html" class="itro__item-link">
-                                    <span class="intro__item-label">Mua ngay</span>
-                                    <i class="intro__item-icon fa-solid fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </li>
-                    </ul>
-                </div>
-                
-            </div>
-
-            <div class="flash-sale">
-                <div class="grid wide flash-sale__container">
-                    <div class="flash-sale__header">
-                        <div class="flash-sale__content">
-                            <div class="header-label">FLASH SALE</div>
-                            <div class="flash-sale__description">
-                                <h2 class="flash-sale__label">Flash sale trong ngày</h2>
-                                <div class="flash-sale__dsc">Ngày Lễ Mua Sắm: Flash Sale Lớn Chưa Từng Có</div>
-                            </div>
-                            
-                        </div>
-                        <div class="flash-sale__populated">
-                            <div class="flash-sale__will-end">kết thúc sau:</div>
-                            <div class="flash-sale__sale-time">
-                                <div class="countdown-item">
-                                    <span class="countdown__hours">23</span>
-                                    <span class="countdown__label">Giờ</span>
-                                </div>
-                                <div class="countdown-item">
-                                    <span class="countdown__minutes">59</span>
-                                    <span class="countdown__label">Phút</span>
-                                </div>
-                                <div class="countdown-item">
-                                    <span class="countdown__seconds">59</span>
-                                    <span class="countdown__label">Giây</span>
-                                </div>
-                            </div>
+    
+        <div class="container" >
+            <!-- Begin Shop Banner -->
+            <div class="shop-banner">
+                <div class="grid wide">
+                    <div class="background-overlay-90deg"></div>
+                    <div class="shop-banner__container">
+                        <div class="shop-banner__heading">Shop</div>
+                        <div class="shop-banner__body">
+                            <a href="../home/index.html" class="shop-banner__wrap">
+                                <i class="shop-banner__icon fa-solid fa-house-chimney"></i>
+                                <span class="shop-banner__label">Trang chủ</span>
+                            </a>
+                            <span class="shop-banner__seperate">/</span>
+                            <a href="" class="shop-banner__title">Shop</a>
                         </div>
                     </div>
-                    <div class="row no-gutters flash-sale__product-list">
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/dell1.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Dell Latitude E5480 i5 6300U M2.SSD FHD</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">8.500.000</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">7.990.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/asus1.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">ASUS Vivobook A1505VA i5 13500H RAM 16GB M2.SSD 512GB FHD</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">17.800.000</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">17.590.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/acer1.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Acer Aspire 5 A515 56 36UT i3 1115G4 RAM 8GB FHD</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">10.350.000</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">10.190.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/mac1.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Apple Macbook Air 13.3 inch M1 2020 RAM 8GB M2.SATA 256GB Gold</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">19.000.00</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">18.990.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/dell2.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Dell Vostro 15 3500 EU5 i5 1135G7 FHD NVIDIA GeForce MX330</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">17.000.000</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">16.590.000</span>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/acer2.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Acer Nitro 5 AN515 AMD R5 5600H M2.SSD 512GB FHD 144Hz NVIDIA Geforce GTX 1650</h2>
-                                <div class="product-item__price">
-                                    <span class="product-item__old-price-unit">₫</span>
-                                    <span class="product-item__old-price">16.990.000</span>
-                                    <span class="product-item__new-price-unit">₫</span>
-                                    <span class="product-item__new-price">16.790.000</span>
-                                </div>
-                            </a>
-                        </div>
-                    </div>                        
                 </div>
             </div>
-            <div class="featured">
+            <!-- End Shop Banner -->
+
+            <!-- Begin Shop Featured -->
+            <div class="featured shop__featured">
                 <div class="grid wide">
                     <div class="row medium-gutter">
                         <div class="col l-6">
@@ -626,7 +476,7 @@
                         </div>
                     </div>
 
-                    <div class="brands">
+                    <div class="brands shop__brands">
                         <div class="brands__label">Brands</div>
                         <div class="row no-gutters brands__list">
                             <div class="col l-2 brands__container">
@@ -663,7 +513,9 @@
                     </div>
                 </div>
             </div>
+            <!-- End Shop Featured -->
 
+            <!-- Begin Shop Latest -->
             <div class="latest">
                 <div class="grid wide">
                     <div class="latest-heading">
@@ -775,7 +627,7 @@
                             <div class="latest__container">
                                 <div class="background-overlay-90deg"></div>
                                 <div class="latest__bottom-upto">
-                                    <h5 class="latest__bottom-heading">Giảm giá lên đếb 50%</h5>
+                                    <h5 class="latest__bottom-heading">Giảm giá lên đến 50%</h5>
                                     <div class="latest__bottom-text">Và hàng ngàn ưu đãi khác</div>
                                     <a href="../nav/about.html" class="latest__bottom-link-btn">
                                         <span class="latest__bottom-label">Đặt trước ngay</span>
@@ -787,176 +639,10 @@
                     </div>
                 </div>
             </div>
-
-            <div class="testimonials">
-                <div class="grid wide">
-                    <div class="testimonials__container">
-                        <div class="testimonials__left">
-                            <div class="header-label">TESTIMONIALS</div>
-                            <h2 class="testimonials__title">Phản Hồi Của Khách Hàng</h2>
-                            <div class="testimonials__text">Những phản hồi của khách hàng về các sản phẩm của chúng tôi</div>
-                            <a href="../nav/about.html" class="view-all-btn testimonials__btn">
-                                <span class="view-all-btn__label">Xem tất cả</span>
-                                <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
-                            </a>
-    
-                        </div>
-    
-                        <div class="testimonials__center">
-                            <div class="testimonials__center-header-wrap">
-                                <h6 class="testimonials__center-heading">Nhận xét từ khách hàng</h6>
-                                <img src="../../assets/img/quote-icon.png" alt="" class="testimonials__center-img">
-                            </div>
-                            <p class="testimonials__center-text">Sản phẩm này thật sự tuyệt vời! Tôi đã sử dụng nó trong một thời gian và hoàn toàn hài lòng với hiệu suất và chất lượng. Thiết kế rất đẹp và hiện đại, giúp tôi tạo điểm nhấn cho không gian làm việc của mình.</p>
-                            
-                            <div class="testimonials__center-footer-wrap">
-                                <div class="testimonials__center-background-overplay"></div>
-
-                                <div class="testimonials__center-content">
-                                    <div class="testimonials__center-content-dsc">
-                                        <img src="../../assets/img/testimoni8.jpg" alt="" class="testimonials__center-footer-img">
-                                        <div class="testimonials__center-body">
-                                            <h5 class="testimonials__center-header">John William</h5>
-                                            <p class="testimonials__center-dsc">Quản lí tại Turniti</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="testimonials__center-stars">
-                                        <i class="testimonials__center-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__center-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__center-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__center-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__center-star-icon fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-    
-                        <div class="testimonials__right">
-                            <div class="testimonials__right-header-wrap">
-                                <h6 class="testimonials__right-heading">Nhận xét từ khách hàng</h6>
-                                <img src="../../assets/img/quote-icon.png" alt="" class="testimonials__right-img">
-                            </div>
-                            <p class="testimonials__right-text">Sản phẩm này thật sự tuyệt vời! Tôi đã sử dụng nó trong một thời gian và hoàn toàn hài lòng với hiệu suất và chất lượng. Thiết kế rất đẹp và hiện đại, giúp tôi tạo điểm nhấn cho không gian làm việc của mình.</p>
-                            <div class="testimonials__right-footer-wrap">
-                                <div class="testimonials__right-content">
-                                    <div class="testimonials__right-content-dsc">
-                                        <img src="../../assets/img/testimoni6.jpg" alt="" class="testimonials__right-footer-img">
-                                        <div class="testimonials__right-body">
-                                            <h5 class="testimonials__right-header">Jack Bell</h5>
-                                            <p class="testimonials__right-dsc">Quản lí tại Unity</p>
-                                        </div>
-                                    </div>
-
-                                    <div class="testimonials__right-stars">
-                                        <i class="testimonials__right-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__right-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__right-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__right-star-icon fa-solid fa-star"></i>
-                                        <i class="testimonials__right-star-icon fa-solid fa-star"></i>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-
-            <div class="blog">
-                <div class="grid wide">
-                    <!-- about -->
-                    <div class="about__container">
-                        <div class="about__video js-about__video">
-                            <img src="../../assets/img/video-about.jpg" alt="" class="about__img">
-                            <div class="about__video-body">
-                                <i class="about__video-icon fa-regular fa-circle-play"></i>
-                                <span class="about__video-label">Play Video</span>
-                            </div>
-                        </div>
-                        <div class="about__wrapper">
-                            <div class="header-label">ABOUT</div>
-                            <h2 class="about__title">Về Kompi</h2>
-                            <p class="about__text">Tại cửa hàng của chúng tôi, bạn sẽ tìm thấy một bộ sưu tập đa dạng về máy tính, linh kiện, phụ kiện, và thiết bị công nghệ, từ các máy tính cá nhân mạnh mẽ cho đến các laptop siêu mỏng, và từ card đồ họa cao cấp cho đến màn hình gaming chất lượng cao. Chúng tôi cam kết cung cấp sản phẩm chất lượng với giá cả cạnh tranh để đảm bảo bạn nhận được giá trị tốt nhất.</p>
-                            <a href="../nav/about.html" class="view-all-btn">
-                                <span class="view-all-btn__label">Learn more</span>
-                                <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
-                    <!-- end about -->
-
-                    <div class="blog__container">
-                        <div class="blog__header">
-                            <div class="blog__header-body">
-                                <div class="header-label">BLOG</div>
-                                <div class="blog__header-content">
-                                    <h2 class="blog__label">Tin tức mới nhất & Blog</h2>
-                                    <div class="blog__text">Blog và tin tức mới nhất dành cho bạn</div>
-                                </div>
-                            </div>
-                            <div class="blog__header-btn-wrap">
-                                <a href="../nav/about.html" class="view-all-btn">
-                                    <span class="view-all-btn__label">Xem tất cả</span>
-                                    <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
-                                </a>
-                            </div>
-                        </div>
-                        
-                        <div class="blog__list">
-                            <div class="row large-gutter">
-                                <div class="col l-4">
-                                    <div class="blog__item">
-                                        <a href="../nav/about.html" class="blog__img-wrapper">
-                                            <img class="blog__img" src="../../assets/img/post-dummy.jpg" alt="">
-                                        </a>
-                                        <div class="blog__body">
-                                            <a href="" class="blog__item-heading">Hướng dẫn lựa chọn Laptop phù hợp với nhu cầu cá nhân</a>
-                                            <div class="blog__item-tail">
-                                                <span class="blog__item-time">October 26, 2023</span>
-                                                <span class="blog__item-cmt">No Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col l-4">
-                                    <div class="blog__item">
-                                        <a href="../nav/about.html" class="blog__img-wrapper">
-                                            <img class="blog__img" src="../../assets/img/post-dummy-1.jpg" alt="">
-                                        </a>
-                                        <div class="blog__body">
-                                            <a href="" class="blog__item-heading">Nâng cấp Laptop: Cách tăng hệu suất và độ bền</a>
-                                            <div class="blog__item-tail">
-                                                <span class="blog__item-time">October 26, 2023</span>
-                                                <span class="blog__item-cmt">No Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                                <div class="col l-4">
-                                    <div class="blog__item">
-                                        <a href="../nav/about.html" class="blog__img-wrapper">
-                                            <img class="blog__img" src="../../assets/img/post-dummy-2.jpg" alt="">
-                                        </a>
-                                        <div class="blog__body">
-                                            <a href="" class="blog__item-heading">Laptop Gaming đáng mua nhất hiện nay</a>
-                                            <div class="blog__item-tail">
-                                                <span class="blog__item-time">October 26, 2023</span>
-                                                <span class="blog__item-cmt">No Comments</span>
-                                            </div>
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-
-
-                </div>
-            </div>
-
+            <!-- End Shop Latest -->
+            
         </div>
-        <!-- End Container -->
-
+    
         <!-- Begin Footer -->
         <footer class="footer">
             <div class="newsletter">
@@ -1052,38 +738,32 @@
             </div>
         </footer>
         <!-- End Footer -->
-    </div>
 
-    
 
-    <!-- Modal layout -->
-    <div class="modal js-modal">
-        <div class="modal__overlay js-modal__overlay"></div>
+        <!-- Modal layout -->
+        <div class="modal js-modal">
+            <div class="modal__overlay js-modal__overlay"></div>
 
-        <div class="modal__body">
-            <div class="modal__inner">
-                <!-- Search-form -->
-                <div class="modal__search-form js-modal__search-form">
-                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
-                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
-                </div>
-                <!-- cart-list -->
-                <div class="modal__cart-list js-modal__cart-list">
-                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
-                    <div class="modal__cart-list-body">
-                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+            <div class="modal__body">
+                <div class="modal__inner">
+                    <!-- Search-form -->
+                    <div class="modal__search-form js-modal__search-form">
+                        <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                        <i class="search-form__input-icon fa-solid fa-xmark"></i>
                     </div>
-                </div>
-                <!-- Video about -->
-                <div class="modal__video-about js-modal__video-about">
-                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
-                    <div class="modal__container">
-                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    <!-- cart-list -->
+                    <div class="modal__cart-list js-modal__cart-list">
+                        <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                        <div class="modal__cart-list-body">
+                            <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
+
+
+        <script src="../../assets/js/home.js"></script>
     </div>
-    <script src="../../assets/js/home.js"></script>
 </body>
 </html>

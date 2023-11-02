@@ -1,0 +1,124 @@
+/* Banner */
+.order-banner {
+    padding: 86px 0 125px 0;
+    background-image: url('../img/hero-trackorder.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.order-banner__container {
+    position: relative;
+}
+.order-banner__heading {
+    font-size: 7.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    line-height: 7.2rem;
+    margin-bottom: 16px;
+}
+.order-banner__body {
+    display: flex;
+    align-items: center;
+}
+.order-banner__wrap {
+    text-decoration: none;
+}
+.order-banner__wrap:hover .order-banner__icon,
+.order-banner__wrap:hover .order-banner__label {
+    color: var(--accent-color);
+}
+.order-banner__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.order-banner__label {
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.order-banner__seperate {
+    padding: 0 16px;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    font-size: 1.4rem;
+}
+.order-banner__title {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--accent-color);
+    font-weight: var(--font-weight);
+} 
+/* Track Order Content */
+.order {
+    padding: 100px 0;
+}
+.order__container {
+    display: flex;
+}
+.order__wrap {
+
+}
+.order__img {
+    width: 100%;
+}
+.order__body {
+    width: 60%;
+    padding: 0 0 0 32px;
+}
+.order__title {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+    margin: 0 0 32px 0;
+}
+.order__form {
+
+}
+.order__text {
+    font-size: 1.4rem;
+    line-height: 2.4rem;
+    color: var(--secondary-color);
+    margin: 0 0 32px 0;
+}
+.order__input-container {
+    display: flex;
+    justify-content: space-between;
+}
+.order__input-wrapper {
+    flex-basis: 46%;
+}
+.order__input-label {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    color: var(--secondary-color);
+    margin: 0 0 8px 0;
+}
+.order__input {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    border: 1px solid var(--border-color);
+    padding: 7px 16px;
+    outline: none;
+    width: 100%;
+    margin: 0 0 12px 0;
+}
+.order__btn {
+    outline: none;
+    border: none;
+    font-size: 1.4rem;
+    color: #515151;
+    background-color: #E9E6ED;
+    padding: 8px 18px;
+    margin: 0 0 6px;
+    cursor: pointer;
+    font-weight: var(--font-weight);
+    overflow: visible;
+    border-radius: 3px;
+}
+.order__btn:hover {
+    background-color: #dcd7e3;
+}

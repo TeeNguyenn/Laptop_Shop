@@ -121,6 +121,7 @@
 .navbar {
     background-color: var(--white-color);
     font-size: 1.4rem;
+    padding: 7px 0;
 }
 .navbar .navbar__container {
     display: flex;
@@ -161,6 +162,9 @@
     margin: 0 32px 0 0;
     font-weight: var(--font-weight);
     font-size: 1.6rem;
+}
+.navbar__list-item-link.navbar__list-item-link--active {
+    color: var(--accent-color);
 }
 .navbar__shop-menu,
 .navbar__pages-menu {
@@ -207,9 +211,7 @@
 .navbar__pages-option-link {
     width: 140px;
 }
-.navbar__list-item:first-child .navbar__list-item-link {
-    color: var(--accent-color);
-}
+
 .navbar__list-item-link-icon {
     position: relative;
     top: 1px;
@@ -520,7 +522,10 @@
     padding: 6px 12px;
     border-radius: 6px;
 }
-.countdown__hours {
+.countdown__hours,
+.countdown__minutes,
+.countdown__seconds {
+    min-width: 45px;
     font-size: 4rem;
     color: var(--accent-color);
     font-weight: var(--font-weight);
@@ -834,7 +839,7 @@
     font-weight: var(--font-weight);
     color: var(--white-color);
     line-height: 5rem;
-    padding:  0 0 8px 0;
+    padding:  0 0 16px 0;
 }
 .testimonials__text {
     color: var(--white-color);
@@ -1090,7 +1095,7 @@
 }
 .blog__img-wrapper {
     display: block;
-    margin: 0 0 16px 0;
+    margin: 0 0 14px 0;
 }
 .blog__img {
     width: 100%;
@@ -1100,6 +1105,8 @@
 
 }
 .blog__item-heading {
+    display: block;
+    text-decoration: none;
     margin: 0 0 16px 0;
     color: var(--text-color);
     font-size: 2.4rem;

@@ -21,7 +21,10 @@
 /* set font  */
 @font-face {
     font-family:font_Roboto;             /* font name*/
-    src:url('../fonts/Roboto-Regular.ttf') format('truetype');
+    src:url('../fonts/Roboto-Regular.ttf') format('truetype'),
+    url('../fonts/Roboto-Bold.ttf') format('truetype'),
+    url('../fonts/Roboto-Medium.ttf') format('truetype'),
+    url('../fonts/Roboto-Light.ttf') format('truetype');
     font-weight:normal;
     font-style:normal;
 }
@@ -120,6 +123,7 @@ html {
     background-color: var(--accent-color);
     color: var(--white-color);
     font-size: 1.4rem;
+    line-height: 1.4rem;
     padding: 0 4px 2px;
     margin: 0 0 8px;
     display: inline-block;

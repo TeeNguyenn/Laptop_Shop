@@ -3,7 +3,6 @@ const modalOverlay = document.querySelector('.js-modal__overlay');
 const headerTop = document.querySelector('.header-top');
 
 
-
 // Search form
 const navSearch = document.querySelector('.js-navbar__search');
 const searchModal = document.querySelector('.js-modal__search-form');
@@ -42,6 +41,34 @@ cartListClose.addEventListener('click', () => {
     headerTop.classList.remove('header-top--active');
     cartListModal.classList.remove('modal__cart-list--active');
 })
+
+
+// Countdown
+const countDown = () => {
+    const desTime = new Date('Jan 1, 2024 00:00:00').getTime();
+    const nowTime = new Date().getTime();
+    const distance = desTime - nowTime;
+
+    // const nextDay = nowTime + (24*60*60*1000 - 1000);
+
+    // const distance = nextDay - nowTime;
+
+    const second = 1000;
+    const minute = second * 60;
+    const hour = minute * 60;
+    const day = hour * 24;
+
+    const textDay  = Math.floor(distance / day);
+    const textHour  = Math.floor((distance % day) / hour);
+    const textMinute  = Math.floor((distance % hour) / minute);
+    const textSecond  = Math.floor((distance % minute) / second);
+
+
+    document.querySelector('.countdown__hours').innerHTML = textHour;
+    document.querySelector('.countdown__minutes').innerHTML = textMinute;
+    document.querySelector('.countdown__seconds').innerHTML = textSecond;
+}
+setInterval(countDown, 1000);
 
 // About Video
 function handelVideoAbout () {

@@ -1,0 +1,63 @@
+/* Banner */
+.blog-banner {
+    padding: 86px 0 125px 0;
+    background-image: url('../img/hero-blog.jpg');
+    background-position: center center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.blog-banner__container {
+    position: relative;
+}
+.blog-banner__heading {
+    font-size: 7.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    line-height: 7.2rem;
+    margin-bottom: 16px;
+}
+.blog-banner__body {
+    display: flex;
+    align-items: center;
+}
+.blog-banner__wrap {
+    text-decoration: none;
+}
+.blog-banner__wrap:hover .blog-banner__icon,
+.blog-banner__wrap:hover .blog-banner__label {
+    color: var(--accent-color);
+}
+.blog-banner__icon {
+    font-size: 1.2rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.blog-banner__label {
+    margin-left: 1.6rem;
+    font-size: 1.6rem;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+}
+.blog-banner__seperate {
+    padding: 0 16px;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    font-size: 1.4rem;
+}
+.blog-banner__title {
+    text-decoration: none;
+    font-size: 1.6rem;
+    color: var(--accent-color);
+    font-weight: var(--font-weight);
+} 
+.blog__container.blog-detail {
+    margin: 0;
+    padding-top: 100px;
+}
+.blog__header.blog-detail {
+    margin: 0 0 24px 0;
+}
+.blog__item.blog-detail {
+    margin: 32px 0 0;
+}

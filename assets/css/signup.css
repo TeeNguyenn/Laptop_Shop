@@ -1,0 +1,148 @@
+.sign-up {
+    background-image: url('../img/signup-bg.jpg');
+    background-position: center center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    display: flex;
+    padding: 115px 0;
+}
+.sign-up__container {
+    margin:  0 auto;
+    padding: 50px 85px;
+    background-color: var(--white-color);
+    border-radius: 10px;
+    width: 660px;
+}
+.sign-up__heading {
+    font-size: 2.4rem;
+    font-weight: var(--font-weight);
+    margin: 0 0 44px;
+    text-align: center;
+}
+.sign-up__form {
+
+}
+.sign-up__title {
+    font-size: 1.6rem;
+    color: var(--text-color);
+    line-height: 1.6rem;
+    margin-bottom: 8px;
+    display: block;
+}
+.sign-up__body {
+    margin: 0 0 20px 0;
+}
+.sign-up__full-name,
+.sign-up__email,
+.sign-up__pass,
+.sign-up__repass {
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+}
+.sign-up__full-name:focus,
+.sign-up__email:focus,
+.sign-up__pass:focus,
+.sign-up__repass:focus,
+.sign-up__note:focus {
+    border-image-source: linear-gradient(to right, #9face6, #74ebd5);
+    border-image-slice: 1;
+    border-radius: 5px;
+}
+.sign-up__body-gender,
+.sign-up__body-favorite,
+.sign-up__country-list {
+    padding: 14px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    display: flex;
+    align-items: center;
+    user-select: none;
+}
+.sign-up__gender-label,
+.sign-up__favorite-label {
+    padding: 0 16px 0 2px;
+}
+.sign-up__country-list {
+    padding: 14px 20px;
+}
+.sign-up__note {
+    padding: 16px 20px;
+    width: 100%;
+    border-radius: 5px;
+    border: 1px solid var(--border-color);
+    outline: none;
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    overflow: hidden;
+}
+.sign-up__policy {
+    display: flex;
+    align-items: center;
+    user-select: none;
+    font-weight: var(--font-weight);
+    font-size: 1.2rem;
+    padding-top: 12px;
+}
+.sign-up__policy-checkbox {
+
+}
+.sign-up__policy-label {
+    margin-left: 4px;
+}
+.sign-up__sign-up-btn {
+    padding: 16px 20px;
+    text-align: center;
+    color: var(--white-color);
+    font-weight: var(--font-weight);
+    border-radius: 5px;
+    font-size: 1.6rem;
+    width: 100%;
+    text-transform: uppercase;
+    border: none;
+    background-image: linear-gradient(to left, #74ebd5, #9face6);
+    cursor: pointer;
+    margin-top: 26px;
+}
+.sign-up__sign-up-btn:hover {
+    opacity: 0.9;
+}
+.sign-up__have-acc {
+    margin-top: 90px;
+    font-size: 1.6rem;
+    color: #555;
+    text-align: center;
+}
+.sign-up__have-acc-link {
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+}
+.sign-up__message {
+    display: block;
+    font-size: 1.2rem;
+    line-height: 1.6rem;
+    padding: 4px 0 0;
+}
+.sign-up__body.invalid .sign-up__full-name,
+.sign-up__body.invalid .sign-up__email,
+.sign-up__body.invalid .sign-up__pass,
+.sign-up__body.invalid .sign-up__repass,
+.sign-up__body.invalid .sign-up__body-gender,
+.sign-up__body.invalid .sign-up__body-favorite,
+.sign-up__body.invalid .sign-up__country-list,
+.sign-up__body.invalid .sign-up__note {
+    border-color: #F2B400;
+    /* color: #f33a58 */
+}
+
+.sign-up__body.invalid .sign-up__message {
+    color: #F2B400;
+}

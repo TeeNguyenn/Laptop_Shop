@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Kompi Shop</title>
+    <title>Thanh Tân & Minh Tiến</title>
     <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
 
     <link rel="stylesheet" href="../../assets/css/reset.css">
@@ -24,23 +24,29 @@
                     <img src="../../assets/img/logo-kompi-dark.png" alt="" class="login__img-link">
                 </a>
                 <div class="login__body">
-                    <div class="header-label">TRACK ORDER</div>
+                    <div class="header-label">MEMBERSHIP</div>
                     <h2 class="login__title">Đăng nhập</h2>
                     <p class="login__text">Để bắt đầu trải nghiệm trang web của chúng tôi, xin vui lòng đăng nhập bằng tài khoản của bạn.</p>
-                    <div class="login__input-container">
-                        <input type="text" class="login__user">
+                    <form action="" class="login-form">
+                        <div class="login__input-container">
+                            <input type="text" class="login__user" placeholder="Tên đăng nhập" required>
+                        </div>
+                        <div class="login__input-container">
+                            <input type="password" name="" id="" class="login__pass" placeholder="Mật khẩu" required>
+                        </div>
+                        <div class="login__container-cover">
+                            <input type="checkbox" name="" id="login__checkbox-id" class="login__checkbox">
+                            <label for="login__checkbox-id" class="login__remember">Nhớ tôi</label>
+                            <a href="" class="login__lost-pass">Quên mật khẩu?</a>
+                        </div>
+                        <button class="login__btn">
+                            <span class="login__btn-label">Đăng nhập</span>
+                        </button>
+                    </form>
+                    <div class="login__switch-to-logup">
+                        <span class="login__switch-to-logup-label">Bạn chưa có tài khoản?</span>
+                        <a href="./signup.html" class="login__switch-to-logup-link">Đăng kí ngay</a>
                     </div>
-                    <div class="login__input-container">
-                        <input type="password" name="" id="" class="login__pass">
-                    </div>
-                    <div class="login__container">
-                        <input type="checkbox" name="" id="" class="login__checkbox">
-                        <span class="login__remember">Nhớ tôi</span>
-                    </div>
-                    <button class="login__btn">
-                        <span class="login__btn-label">Quên mật khẩu?</span>
-                    </button>
-                    <a href="" class="login__lost-pass"></a>
                 </div>
             </div>
         </div>

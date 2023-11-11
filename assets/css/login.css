@@ -10,11 +10,12 @@
 }
 .login__wrapper {
     width: 500px;
+    max-width: 100%;
     margin: 44px auto;
 }
 .login__logo-link {
     display: block;
-    margin-bottom: 140px;
+    margin-bottom: 126px;
 }
 .login__img-link {
     height: auto;
@@ -36,6 +37,9 @@
     line-height: 2.4rem;
     color: var(--secondary-color);
 }
+.login__input-container {
+
+}
 .login__user,
 .login__pass {
     padding: 7px 16px;
@@ -43,28 +47,77 @@
     border: 1px solid var(--border-color);
     width: 100%;
     max-width: 100%;
+    outline: none;
+    line-height: 25px;
+    font-size: 1.6rem;
+    color: var(--secondary-color);
+    transition: all 0.1s ease-in;
+}
+.login__user:focus,
+.login__pass:focus {
+    box-shadow: 0 0 0 1px rgba(0, 0, 0, 0.1);
+    color: var(--text-color);
 }
 .login__pass {
-    margin-top: 16px;
-    /* toi day */
+    margin: 16px 0;
 }
-.login__container {
-
+.login__container-cover {
+    display: flex;
+    align-items: center;
+    margin-bottom: 32px;
 }
 .login__checkbox {
 
 }
 .login__remember {
-
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    margin-left: 8px;
+    user-select: none;
 }
 .login__btn {
-
+    color: var(--white-color);
+    border: none;
+    outline: none;
+    width: 100%;
+    max-width: 100%;
+    min-height: 40px;
+    padding: 12px 24px;
+    background-color: var(--accent-color);
+    margin-bottom: 16px;
+}
+.login__btn:hover {
+    cursor: pointer;
+    opacity: 0.9;
 }
 .login__btn-label {
-
+    font-size: 1.6rem;
+    font-weight: var(--font-weight);
 }
 .login__lost-pass {
+    display: block;
+    font-size: 1.2rem;
+    color: var(--accent-color);
+    text-decoration: none;
+    margin-left: auto;
+}
+.login__lost-pass:hover {
+    text-decoration: underline;
+}
+.login__switch-to-logup {
 
+}
+.login__switch-to-logup-label {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+.login__switch-to-logup-link {
+    font-size: 1.4rem;
+    text-decoration: none;
+    color: var(--accent-color);
+}
+.login__switch-to-logup-link:hover {
+    text-decoration: underline;
 }
 .login__img-wrap {
     flex-basis: 45%;

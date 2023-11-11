@@ -1,0 +1,622 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tân & Minh Tiến</title>
+    <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/details/dell1.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+
+    <!-- set icon -->
+    <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Begin Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="grid wide header-top-wrapper">
+                    <div class="header-top-title">Chào mừng đến với Kompi Shop, Nâng cao công việc và giải trí với các dòng laptop tốt nhất!</div>
+                    <div class="header-top-widget">
+                        <div class="widget__track-order">
+                            <a href="../nav/order.html" class="track-order__link">
+                                <i class="track-order__link-icon fa-solid fa-truck fa-xs"></i>
+                                <span class="track-order__link-label">Theo dõi đơn hàng</span>
+                            </a>
+                        </div>
+                        <div class="widget__language">
+                            <a href="../nav/about.html" class="widget__language-link">
+                                <span class="language__label">Vietnamese</span>
+                                <i class="language__icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="language__list">
+                                <li class="language__list-item">
+                                    <a href="../nav/about.html" class="language__list-item-link">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="../nav/login.html" class="widget__login">
+                            <i class="login__icon fa-solid fa-user"></i>
+                            <span class="login__label">Đăng nhập / Đăng kí</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <div class="grid wide navbar__container">
+                    <div class="navbar__logo">
+                        <a href="../home/index.html" class="navbar__logo-link">
+                            <img src="../../assets/img/logo-kompi-dark.png" alt="" class="navbar__logo-img">
+                        </a>
+                    </div>
+
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a href="../home/index.html" class="navbar__list-item-link">Trang chủ</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">About</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/shop.html" class="navbar__list-item-link">
+                                Shop
+                                <!-- <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i> -->
+                            </a>
+                            <!-- <ul class="navbar__shop-menu">
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Chi tiết sản phẩm</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Theo dõi đơn hàng</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Trang đăng nhập</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">
+                                <span>Trang</span>
+                                <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="navbar__pages-menu">
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Team</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Địa điểm</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Giá</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Liên hệ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">FAQ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Feedback</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">404 page</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Popups Banner</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/blog.html" class="navbar__list-item-link">Blog</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__search js-navbar__search">
+                        <i class="navbar__search-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="navbar__shopping-cart js-navbar__shopping-cart">
+                        <div class="shopping-cart-link">
+                            <span class="shopping-cart-link-total">$0</span>
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                            <span class="shopping-cart-link-qty">0</span>
+                        </div>
+                    </div>
+
+                    <div class="navbar__infor">
+                        <i class="navbar__infor-icon fa-solid fa-headset"></i>
+                        <div class="navbar__infor-body">
+                            <div class="navbar__infor-phone">(+84) 333 444 555</div>
+                            <div class="navbar__infor-mail">Email: info@Kompi.com</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-bottom">
+                <div class="grid wide header-bottom-container">
+                    <ul class="header-bottom__menu">
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Deals</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Seller</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Gaming PC</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Phụ Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Linh Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Thiết Bị Mạng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </header>
+        <!-- End Header -->
+
+        <!-- Begin Container -->
+        <div class="container">
+            <div class="detail">
+                <div class="grid wide">
+                    <div class="row large-gutter">
+                        <div class="col l-6">
+                            <div class="detail__img-wrap">
+                                <div class="detail__img-feature-list">
+                                    <img src="../../assets/img/dell1.JPG" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-1.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-2.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-3.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-4.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-5.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-6.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-7.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-8.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/dell1-9.jpg" alt="" class="detail__img">
+                                </div>
+                                <div class="detail__img-control-prev">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="detail__img-control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__img-label">
+                                    <span class="detail__img-current">1</span>
+                                    <span class="detail__img-total">/10</span>
+                                </div>
+                            </div>
+                            <div class="detail__list-img-wrapper">
+                                <div class="control-prev control-prev--hide">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__list-img-content">
+                                    <div class="row sm-gutter detail__list-img">
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-1.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-2.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-3.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-4.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-5.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-6.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-7.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-8.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-9.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/dell1-s-10.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="detail__body">
+                                <h2 class="detail__label">Laptop Dell Latitude E5480 i5 6300U M2.SSD FHD</h2>
+                                <div class="detail__price">
+                                    <div class="detail__old-price">8.500.000<sup>₫</sup></div>
+                                    <div class="detail__cur-price">7.990.000<sup>₫</sup></div>
+                                </div>
+                                <div class="detail__advantage">
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        CPU: 6th Generation Intel® Core™ i5 6300U
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        RAM: DDR4 (Nâng cấp lên đến 16GB)
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Ổ Cứng: M2.SATA (Tùy chọn cấu hình)
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        VGA: Intel® HD Graphics 620
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Màn Hình: 14 inch 157 PPI, yes, LG Philips LGD0553, IPS, glossy: yes
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Cổng giao tiếp: 2 x USB 3.0 USB 3.0 (PowerShare) USB-C/Thunderbolt 3 LAN HDMI VGA
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        PIN/Battery: 4 cell
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Trọng lượng: 1.7 Kg
+                                    </p>
+                                    <p class="detail__advantage-more">Xem thêm ></p>
+                                </div>
+                                <div class="detail__cart">
+                                    <div class="detail__cart-quantity">
+                                        <input type="text" class="detail__cart-num" value="1" min="1" size="4" step="1">
+                                        <div class="detail__cart-icon-up">
+                                            <i class="fa-solid fa-sort-up"></i>
+                                        </div>
+                                        <div class="detail__cart-icon-down">
+                                            <i class="fa-solid fa-sort-down"></i>
+                                        </div>
+                                    </div>
+                                    <button type="submit" class="detail__cart-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!-- End Container -->
+
+        <!-- Begin Footer -->
+        <footer class="footer">
+            <div class="newsletter">
+                <div class="grid wide">
+                    <div class="newsletter__background-overlay"></div>
+                    <div class="row no-gutters">
+                        <div class="col l-12">
+                            <div class="newsletter__body">
+                                <h2 class="newsletter__label">Newsletter Sign Up</h2>
+                                <div class="newsletter__title">Nhận thông tin mới nhất về sản phẩm và chương trình khuyến mãi của chúng tôi.</div>
+                                <div class="newsletter__wrap">
+                                    <input type="text" name="" id="" class="newsletter__input" placeholder="Email address">
+                                    <button class="newsletter__btn">Đăng kí</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="grid wide">
+                    <div class="contact__container">
+                        <div class="contact__about-us">
+                            <div class="contact__about-us-title">Về chúng tôi</div>
+                            <p class="contact__about-us-text">Chúng tôi luôn đề cao chất lượng và sự hài lòng của khách hàng</p>
+                            <img src="../../assets/img/logo-kompi-light.png" alt="" class="contact__about-us-img">
+                        </div>
+                        <div class="contact__location">
+                            <div class="contact__location-title">Địa điểm</div>
+                            <div class="contact__location-address">Số 2 Đường Võ Oanh, Phường 25, Quận Bình Thạnh, Tp HCM</div>
+                            <div class="contact__location-mail">customer@kompi.com</div>
+                            <div class="contact__location-phone">(+021) 345 678 910</div>
+                        </div>
+                        <div class="contact__service">
+                            <div class="contact__service-title">DỊCH VỤ KHÁCH HÀNG</div>
+                            <div class="contact__service-body">
+                                <a href="../nav/about.html" class="contact__service-option">Trung tâm hỗ trợ</a>
+                                <a href="../nav/about.html" class="contact__service-option">Theo dõi đơn hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Trả hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Chính sách hoàn trả</a>
+                                <a href="../nav/about.html" class="contact__service-option">Riêng tư&Bảo mật</a>
+                                <a href="../nav/about.html" class="contact__service-option">Feedback</a>
+                            </div>
+                        </div>
+                        <div class="contact__quick-link">
+                            <div class="contact__quick-link-title">LIÊN KẾT</div>
+                            <div class="contact__quick-link-body">
+                                <a href="../nav/about.html" class="contact__quick-link-option">Liên hệ chúng tôi </a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Về chúng tôi</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Hình thức thanh toán</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Sự nghiệp</a>
+                            </div>
+                        </div>
+                        <div class="contact__brands">
+                            <div class="contact__brands-title">BRANDS</div>
+                            <div class="contact__brands-body">
+                                <a href="../nav/about.html" class="contact__brands-option">Kinh doanh</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Nhãn hiệu toàn cầu</a>
+                                <a href="../nav/about.html" class="contact__brands-option">ABS</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Rosewill</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social">
+                <div class="social__background-overlay"></div>
+                <div class="grid wide">
+                    <div class="row no-gutters social__container">
+                        <div class="col l-6">
+                            <div class="social__heading">© 2023 Kompi. Powered by TeeDev</div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="social__wrapper">
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/home.js"></script>
+
+    <script>
+        // Detail Advantage
+        const moreBtn = document.querySelector('.detail__advantage-more');
+        const advantageHideItems = document.querySelectorAll('.detail__advantage-item--hide');
+
+        moreBtn.addEventListener('click', () => {
+            if(!moreBtn.classList.contains('detail__advantage-shrink')) {
+                moreBtn.classList.add('detail__advantage-shrink');
+                moreBtn.innerHTML = "< Thu gọn";
+            } 
+            else {
+                moreBtn.classList.remove('detail__advantage-shrink');
+                moreBtn.innerHTML = "Xem thêm >";
+            }
+            advantageHideItems.forEach((advantageHideItem) => {
+                advantageHideItem.classList.toggle('detail__advantage-item--show');
+            })
+        })
+
+        // Detail quantity
+        const cartNum = document.querySelector('.detail__cart-num');
+        const increaseNum = document.querySelector('.detail__cart-icon-up');
+        const decreaseNum = document.querySelector('.detail__cart-icon-down');
+
+        increaseNum.addEventListener('click', () => {
+            var amount = eval(cartNum.value) + 1;
+            amount+='';
+
+            // cartNum.setAttribute('value', amount);
+            cartNum.value = amount;
+        })
+        decreaseNum.addEventListener('click', () => {
+            // var amount = cartNum.value;
+            // amount--;
+            var amount = eval(cartNum.value) - 1;
+
+            if(amount < 1)
+                amount = 1;
+            amount+='';
+
+            // cartNum.setAttribute('value', amount);
+            cartNum.value = amount;
+        })
+
+        // slide show
+        const imgFeature = document.querySelector('.detail__img');
+        const imgFeatureList = document.querySelector('.detail__img-feature-list');
+        const listImg = document.querySelectorAll('.list-img__item-img');
+        const imgListWrap = document.querySelector('.detail__list-img');
+        const prevBtn = document.querySelector('.detail__img-control-prev');
+        const nextBtn = document.querySelector('.detail__img-control-next');
+        const prevSubBtn = document.querySelector('.detail__list-img-wrapper .control-prev');
+        const nextSubBtn = document.querySelector('.detail__list-img-wrapper .control-next');
+        const currentOrder = document.querySelector('.detail__img-current');
+
+        let currentIndex = 0;
+        let currentIndexSub = 0;
+        var Width = imgFeature.offsetWidth;
+        var widthImgSub = document.querySelector('.list-img__item-img').offsetWidth;
+
+
+        listImg.forEach((imgElement, index) => {
+            imgElement.addEventListener('click', e => {
+                setTimeout(() => {
+                    currentIndex = index;
+                    currentIndexSub = index;
+                    currentOrder.innerHTML = `${index + 1}`
+                    prevSubBtn.classList.remove('control-prev--hide');
+                    imgFeatureList.style.transform = `translateX(${Width * -1 * currentIndex}px)`
+                    if(currentIndex <= listImg.length - 4)
+                        imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * currentIndexSub + (0.5 * currentIndexSub)) + (-10*currentIndexSub)}px)`
+                    else    
+                        imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * (listImg.length - 4) + (0.5 * (listImg.length - 4))) + (-10*(listImg.length - 4))}px)`
+                },200);
+            })
+        })
+        prevBtn.addEventListener('click', e => {
+            // handle imgFeature list
+            if(currentIndex == 0)
+                currentIndex = listImg.length - 1;
+            else    
+                currentIndex--;
+            setTimeout(() => {
+                imgFeatureList.style.transform = `translateX(${Width * -1 * currentIndex}px)`
+                currentOrder.innerHTML = `${currentIndex + 1}`
+            }, 200)
+
+            // handle imgSubList
+            currentIndexSub = currentIndex;
+            if(currentIndexSub >= listImg.length - 4)
+                currentIndexSub = listImg.length -4;
+            listImg.forEach((imgElement, index) => {
+                imgElement.classList.remove('list-img__item-img--scale');
+            })
+            setTimeout(() => {
+                listImg[currentIndex].classList.add('list-img__item-img--scale');
+                imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * currentIndexSub +(0.5 * currentIndexSub)) + (-10*currentIndexSub)}px)`
+            }, 200)
+
+        })
+        nextBtn.addEventListener('click', e => {
+            // handle imgFeature list
+            if(currentIndex == listImg.length - 1)
+                currentIndex = 0;
+            else    
+                currentIndex++;
+            setTimeout(() => {
+                imgFeatureList.style.transform = `translateX(${Width * -1 * currentIndex}px)`
+                currentOrder.innerHTML = `${currentIndex + 1}`;
+            }, 200)
+
+            // handle imgSubList
+            currentIndexSub = currentIndex;
+            if(currentIndexSub >= listImg.length - 4) {
+                currentIndexSub = listImg.length -4;
+            }
+            listImg.forEach((imgElement, index) => {
+                imgElement.classList.remove('list-img__item-img--scale');
+            })
+            setTimeout(() => {
+                listImg[currentIndex].classList.add('list-img__item-img--scale');
+                imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * currentIndexSub + (0.5 * currentIndexSub)) + (-10*currentIndexSub)}px)`
+            }, 200)
+            
+        })
+        prevSubBtn.addEventListener('click', e => {
+            nextSubBtn.classList.remove('control-next--hide');
+            if(currentIndexSub >= listImg.length - 4)
+                currentIndexSub = listImg.length -4;
+            if(currentIndexSub == 0) {
+                setTimeout(() => {
+                    prevSubBtn.classList.add('control-prev--hide');
+                }, 1000)
+            }
+            else    
+                currentIndexSub--;
+            setTimeout(() => {
+                imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * currentIndexSub + (0.5 * currentIndexSub)) + (-10*currentIndexSub)}px)`
+            }, 200)
+
+            if(currentIndexSub == 0) {
+                prevSubBtn.classList.add('control-prev--hide');
+            }
+
+        })
+        nextSubBtn.addEventListener('click', e => {
+            prevSubBtn.classList.remove('control-prev--hide');
+            if(currentIndexSub >= listImg.length - 4) {
+                currentIndexSub = listImg.length - 4;
+                setTimeout(() => {
+                    nextSubBtn.classList.add('control-next--hide');
+                }, 2000)
+            }
+            else {
+                currentIndexSub++;
+            }
+            setTimeout(() => {
+                imgListWrap.style.transform = `translateX(${(widthImgSub * -1 * currentIndexSub + (0.5 * currentIndexSub)) + (-10*currentIndexSub)}px)`
+            }, 200)
+        })
+
+    </script>
+</body>
+</html>

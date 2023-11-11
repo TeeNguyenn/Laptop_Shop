@@ -1,0 +1,164 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tân & Minh Tiến</title>
+    <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
+
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/signup.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+
+    <!-- set icon -->
+    <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="sign-up">
+        <div class="sign-up__container">
+            <h2 class="sign-up__heading">ĐĂNG KÍ THÀNH VIÊN</h2>
+            <form action="" method="post" class="sign-up__form" id="sign-up__form">
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Họ và tên</label>
+                    <input type="text" placeholder="Họ và tên" id="fullname" class="sign-up__full-name">
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Email</label>
+                    <input type="email" placeholder="email@gmail.com" id="email" class="sign-up__email">
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Mật khẩu</label>
+                    <input type="password" placeholder="Mật khẩu của bạn" id="password" class="sign-up__pass">
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Xác nhận mật khẩu</label>
+                    <input type="password" placeholder="Vui lòng nhập lại mật khẩu" id="password_confirmation" class="sign-up__repass">
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Giới tính</label>
+                    <div class="sign-up__body-gender">
+                        <input type="radio"  value="Nam" name="gender" id="male" class="sign-up__gender">
+                        <label for="male" class="sign-up__gender-label">Nam</label>
+                        <input type="radio" value="Nữ" name="gender" id="female" class="sign-up__gender">
+                        <label for="female" class="sign-up__gender-label">Nữ</label>
+                        <input type="radio" value="Khác" name="gender" id="other" class="sign-up__gender">
+                        <label for="other" class="sign-up__gender-label">Khác</label>
+                    </div>
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Sở thích</label>
+                    <div class="sign-up__body-favorite">
+                        <input type="checkbox" value="Đọc sách" name="favorite" id="read" class="sign-up__favorite">
+                        <label for="read" class="sign-up__favorite-label">Đọc sách</label>
+                        <input type="checkbox" value="Du lịch"  name="favorite" id="travel" class="sign-up__favorite">
+                        <label for="travel" class="sign-up__favorite-label">Du lịch</label>
+                        <input type="checkbox" value="Âm nhạc"  name="favorite" id="music" class="sign-up__favorite">
+                        <label for="music" class="sign-up__favorite-label">Âm nhạc</label>
+                        <input type="checkbox" value="Ẩm thực"  name="favorite" id="food" class="sign-up__favorite">
+                        <label for="food" class="sign-up__favorite-label">Ẩm thực</label>
+                        <input type="checkbox" value="Khác"     name="favorite" id="another" class="sign-up__favorite">
+                        <label for="another" class="sign-up__favorite-label">Khác</label>
+                    </div>
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Quốc tịch</label>
+                    <select name="country" id="country" class="sign-up__country-list">
+                        <option value="" class="sign-up__country-option" disabled selected>Chọn quốc tịch</option>
+                        <option value="vn" class="sign-up__country-option">Việt Nam</option>
+                        <option value="nb" class="sign-up__country-option">Nhật Bản</option>
+                        <option value="hq" class="sign-up__country-option">Hàn Quốc</option>
+                        <option value="other" class="sign-up__country-option">Khác</option>
+                    </select>
+                    <span class="sign-up__message"></span>
+                </div>
+                <div class="sign-up__body">
+                    <label class="sign-up__title">Ghi chú</label>
+                    <textarea id="note" name="note" rows="4" cols="50" class="sign-up__note"></textarea>
+                    <span class="sign-up__message"></span>
+                </div>
+
+                <div class="sign-up__body">
+                    <div class="sign-up__policy">
+                        <input type="checkbox" name="" id="policy" class="sign-up__policy-checkbox">
+                        <label for="policy" class="sign-up__policy-label">Tôi đồng ý với tất cả các điều khoản trong <a href="" class="sign-up__policy-link">Điều khoản dịch vụ</a></label>
+                    </div>
+                    <span class="sign-up__message"></span>
+                </div>
+
+                <button class="sign-up__sign-up-btn">Đăng kí</button>
+
+                <div class="sign-up__have-acc">Bạn đã có tài khoản? <a href="../nav/login.html" class="sign-up__have-acc-link">Đăng nhập tại đây.</a></div>
+            </form>
+        </div>
+    </div>
+        
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/home.js"></script>
+    <script src="../../assets/js/validate.js"></script>
+
+    <script>
+        Validator({
+            form: '#sign-up__form',
+            formGroupSelector: '.sign-up__body',
+            errorSelector: '.sign-up__message',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isRequired('#email'),
+                Validator.isEmail('#email'),
+                Validator.isRequired('#password'),
+                Validator.minLength('#password', 6),
+                Validator.isRequired('#password_confirmation'),
+                Validator.isConfirmed('#password_confirmation', function() {
+                  return document.querySelector('#sign-up__form #password').value;
+                }, 'Mật khẩu nhập lại không chính xác!'),
+                // Validator.isRequired('#avatar'),
+                Validator.isRequired('input[name="gender"]'),
+                Validator.isRequired('input[name="favorite"]'),
+                Validator.isRequired('#country'),
+                Validator.isRequired('#policy'),
+                Validator.maxLength('#note', 200),
+            ],
+            // onSubmit: function(data) {
+            //   // Call API
+            //   console.log(data)
+            // }
+        })
+    </script>
+</body>
+</html>

@@ -12,6 +12,13 @@
     --yellow-color: #FECE51;
     --global-color: #EBEDF8;
     --arrows: #505050;
+    --table-color: #ebebeb;
+    --table-title-color: #212121;
+    --table-text-color: #474747;
+    --table-price-color: #ee4d2d;
+    --table-border-color: #e5e5e5;
+    --btn-color: #B12704;
+    --star-color: #fd4;
 
 }
 * {

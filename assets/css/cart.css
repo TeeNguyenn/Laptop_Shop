@@ -1,0 +1,184 @@
+.cart {
+    background-color: var(--white-color);
+    padding: 50px 0 100px;
+}
+.cart__header {
+    margin-bottom: 50px;
+}
+.cart__header-heading {
+    display: inline-block;
+    color: var(--white-color);
+    background-color: var(--accent-color);
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    font-weight: var(--font-weight);
+    padding: 1px 4px 4px;
+    letter-spacing: 2px;
+}
+.cart__header-label {
+    font-size: 4.8rem;
+    line-height: 4.8rem;
+    color: var(--text-color);
+    font-weight: var(--font-weight);
+    margin: 16px 0 0;
+}
+.cart__body {
+
+}
+.cart__sort {
+    display: flex;
+    align-items: center;
+    padding: 12px 0;
+    margin-bottom: 30px;
+}
+.cart__sort-label {
+    font-weight: 600;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    margin-right: 32px;
+}
+.cart__sort-container {
+    position: relative;
+}
+.cart__sort-body {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border: 1px solid rgb(156, 146, 146);
+    box-shadow: 0 0 2px rgba(0, 0, 0, 0.1);
+    padding: 8px 8px 8px 16px;
+    border-radius: 2px;
+    background-color: var(--white-color);
+    cursor: pointer;
+    min-width: 180px;
+}
+.cart__sort-body::before {
+    display: block;
+    content: "";
+    position: absolute;
+    height: 5px;
+    left: 0;
+    right: 0;
+    bottom: -2px;
+    z-index: 10;
+}
+.cart__sort-title {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--text-color-2);
+    margin-right: 40px;
+}
+.cart__sort-down {
+    font-size: 1.4rem;
+    color: var(--text-color-2);
+}
+.cart__sort-list {
+    list-style-type: none;
+    position: absolute;
+    background-color: var(--white-color);
+    width: 100%;
+    border: 1px solid var(--table-border-color);
+    border-radius: 3px;
+    box-shadow: 1px 1px 2px rgba(0, 0, 0, 0.1);
+    display: none;
+}
+.cart__sort-list.show {
+    display: block;
+}
+/* .cart__sort-container:hover  .cart__sort-list {
+    display: block;
+} */
+.cart__sort-item {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--text-color);
+    padding: 10px 8px 10px 16px;
+}
+.cart__sort-item:hover {
+    background-color: var(--background-color);
+    cursor: pointer;
+}
+.cart__body table {
+    border: 1px solid var(--table-color);
+    border-collapse: collapse;
+    width: 100%;
+    text-align: center;
+}
+.cart__body table tr {
+    border: 1px solid var(--table-color);
+}
+.cart__body table th {
+    padding: 21px 45px 22px;
+    font-size: 2.2rem;
+    line-height: 2.2rem;
+    color: var(--table-title-color);
+    font-weight: var(--font-weight);
+    background-color: var(--table-color);
+}
+.cart__body td {
+    padding: 30px 0;
+    text-align: center;
+    line-height: 160.8px;
+}
+.cart__checkbox-all,
+.cart__checkbox {
+    width: 17px;
+    height: 17px;
+}
+.cart__img-link {
+    display: block;
+    width: 140px;
+    height: 160px;
+}
+.cart__img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+.cart__name {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--table-text-color);
+}
+.cart__price {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--table-price-color);
+}
+.cart__quantity {
+    width: 110px;
+    height: 40px;
+    margin: 0 auto;
+    font-size: 1.6rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.cart__quantity-input {
+    width: 90px;
+    height: 32px;
+    border: 1px solid var(--table-border-color);
+    color: var(--table-text-color);
+    text-align: center;
+    user-select: none;
+}
+.cart__quantity-input:focus {
+    outline: none;
+}
+.cart__subtotal {
+    font-size: 1.6rem;
+    line-height: 1.6rem;
+    color: var(--table-price-color);
+}
+table .table__footer {
+    background-color: var(--table-color);
+}
+table .table__footer td {
+    line-height: 1.6rem;
+    padding: 21px 0 22px;
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    font-weight: var(--font-weight);
+    color: var(--accent-color);
+}

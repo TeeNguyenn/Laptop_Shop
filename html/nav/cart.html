@@ -4,14 +4,15 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Thanh Tân & Minh Tiến</title>
-
     <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
-
+    
     <link rel="stylesheet" href="../../assets/css/reset.css">
     <link rel="stylesheet" href="../../assets/css/base.css">
     <link rel="stylesheet" href="../../assets/css/main.css">
-    <link rel="stylesheet" href="../../assets/css/order.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/cart.css">
     <link rel="stylesheet" href="../../assets/css/grid.css">
+
     <!-- set icon -->
     <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
 </head>
@@ -173,174 +174,156 @@
            
         </header>
         <!-- End Header -->
-    
-        <div class="container" >
-            <!-- Begin Track Order Banner -->
-            <div class="order-banner">
-                <div class="grid wide">
-                    <div class="background-overlay-90deg"></div>
-                    <div class="order-banner__container">
-                        <div class="order-banner__heading">Theo dõi đơn hàng</div>
-                        <div class="order-banner__body">
-                            <a href="../home/index.html" class="order-banner__wrap">
-                                <i class="order-banner__icon fa-solid fa-house-chimney"></i>
-                                <span class="order-banner__label">Trang chủ</span>
-                            </a>
-                            <span class="order-banner__seperate">/</span>
-                            <a href="" class="order-banner__title">Theo dõi đơn hàng</a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Track Order Banner -->
 
-            <!-- Begin Order Content -->
-            <div class="order">
-                <div class="grid wide">
-                    <div class="order__container">
-                        <div class="order__wrap">
-                            <img src="../../assets/img/track-order-sect-px2m0zsc9axfpowlraez7ftiz9c26zjkr1mtfnteds.jpg" alt="" class="order__img">
-                        </div>
-                        <div class="order__body">
-                            <div class="header-label">TRACK ORDER</div>
-                            <h2 class="order__title">Track Your Order Now</h2>
-                            <form action="../nav/order.html" class="order__form" method="post">
-                                <p class="order__text">To track your order please enter your Order ID in the box below and press the "Track" button. This was given to you on your receipt and in the confirmation email you should have received.</p>
-                                <div class="order__input-container">
-                                    <div class="order__input-wrapper">
-                                        <div for="" class="order__input-label">Order ID</div>
-                                        <input type="text" class="order__input" placeholder="Found in your order confirmation email.">
-                                    </div>
-                                    <div class="order__input-wrapper">
-                                        <div for="" class="order__input-label">Billing email</div>
-                                        <input type="text" class="order__input" placeholder="Email you used during checkout.">
-                                    </div>
+        <!-- Begin Container -->
+        <div class="container">
+            <div class="grid wide">
+                <div class="cart">
+                    <div class="cart__header">
+                        <span class="cart__header-heading">SHOP</span>
+                        <h2 class="cart__header-label">Đặt hàng</h2>
+                    </div>
+                    <div class="cart__body">
+                        <div class="cart__sort">
+                            <div class="cart__sort-label">Sản phẩm của bạn</div>
+                            <div class="cart__sort-container">
+                                <div class="cart__sort-body">
+                                    <div class="cart__sort-title">Mức giá</div>
+                                    <i class="cart__sort-down fa-solid fa-chevron-down"></i>
                                 </div>
-                                <button type="submit" class="order__btn">Track</button>
-                            </form>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <!-- End Order Content -->
-
-
-
-            <div class="latest">
-                <div class="grid wide">
-                    <div class="latest-heading">
-                        <div class="latest__header-wrap">
-                            <div class="header-label">LATEST</div>
-                            <div class="latest__header-body">
-                                <div class="latest__header-title">Sản phẩm mới nhất</div>
-                                <div class="latest__header-text">Sản Phẩm Mới Ra Lò: Tích Hợp Công Nghệ Hiện Đại</div>
+                                <ul class="cart__sort-list">
+                                    <li class="cart__sort-item" type="low">Từ 5-10 triệu</li>
+                                    <li class="cart__sort-item" type="medium">Từ 10-20 triệu</li>
+                                    <li class="cart__sort-item" type="high">Từ 20-50 triệu</li>
+                                    <li class="cart__sort-item" type="all">Tất cả sản phẩm</li>
+                                </ul>
                             </div>
                         </div>
-                        <div class="latest__btn-wrap">
-                            <a href="../nav/about.html" class="view-all-btn">
-                                <span class="view-all-btn__label">Xem tất cả</span>
-                                <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
-                            </a>
-                        </div>
-                    </div>
 
-                    <div class="row no-gutters latest__product-list">
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/acer3.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Acer Nitro 5 Tiger AN515 i5 12500H M2.SSD 512GB FHD 144Hz NVIDIA GeForce RTX 3050</h2>
-                                <div class="product-item__price">
-                                    <!-- <div class="product-item__old-price">$40</div> -->                                    
-                                    <div class="product-item__new-price">22.390.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/mac4.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Macbook Air 13.3 inch M1 2020 RAM 8GB M2.SATA 256GB silver</h2>
-                                <div class="product-item__price">
-                                    <!-- <div class="product-item__old-price">$40</div> -->                                    
-                                    <div class="product-item__new-price">18.590.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/dell4.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Dell Inspiron 14 7435 2-in-1 R5 7530U RAM 8GB M2.SSD 512GB FHD</h2>
-                                <div class="product-item__price">
-                                    <!-- <div class="product-item__old-price">$40</div> -->                                    
-                                    <div class="product-item__new-price">17.790.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/acer1.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Acer Aspire 5 A515 56 36UT i3 1115G4 RAM 8GB FHD</h2>
-                                <div class="product-item__price">
-                                    <div class="product-item__old-price">10.350.000<sup>₫</sup></div>                                    
-                                    <div class="product-item__new-price">10.190.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/asus3.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Asus TUF Gaming FX506HC i5 11400H RAM 8GB M2.SSD 512GB NVIDIA GeForce RTX 3050 4GB</h2>
-                                <div class="product-item__price">
-                                    <!-- <div class="product-item__old-price">$40</div> -->                                    
-                                    <div class="product-item__new-price">19.090.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                        <div class="col l-2">
-                            <a href="../details/product.html" class="product-item">
-                                <img src="../../assets/img/mac2.JPG" alt="" class="product-item__img">
-                                <h2 class="product-item__title">Macbook Pro 13 inch 2020 M1 RAM 8GB SSD 256GB Touchbar Gray</h2>
-                                <div class="product-item__price">
-                                    <!-- <div class="product-item__old-price">$40</div> -->                                    
-                                    <div class="product-item__new-price">29.890.000<sup>₫</sup></div>
-                                </div>
-                            </a>
-                        </div>
-                    </div>
-
-                    <div class="row">
-                        <div class="col l-6">
-                            <div class="latest__container">
-                                <div class="background-overlay-90deg"></div>
-                                <div class="latest__bottom-reign">
-                                    <h5 class="latest__bottom-heading">Nắm giữ ưu thế</h5>
-                                    <div class="latest__bottom-text">Trang thiết bị tốt nhất về mọi mặt</div>
-                                    <a href="../nav/about.html" class="latest__bottom-link-btn">
-                                        <span class="latest__bottom-label">Đặt trước ngay</span>
-                                        <i class="latest__bottom-icon fa-solid fa-chevron-right"></i>
+                        <table>
+                            <tr>
+                                <th>
+                                    <input type="checkbox" name="all" id="" class="cart__checkbox-all">
+                                </th>
+                                <th>Ảnh</th>
+                                <th>Tên sản phẩm</th>
+                                <th>Đơn giá</th>
+                                <th>Số lượng</th>
+                                <th>Thành tiền</th>
+                            </tr>
+                            <tr class="row-table">
+                                <td>
+                                    <input type="checkbox" name="" id="" class="cart__checkbox">
+                                </td>
+                                <td>
+                                    <a href="" class="cart__img-link">
+                                        <img src="../../assets/img/acer1.JPG" alt="" class="cart__img">
                                     </a>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="col l-6">
-                            <div class="latest__container">
-                                <div class="background-overlay-90deg"></div>
-                                <div class="latest__bottom-upto">
-                                    <h5 class="latest__bottom-heading">Giảm giá lên đến 50%</h5>
-                                    <div class="latest__bottom-text">Và hàng ngàn ưu đãi khác</div>
-                                    <a href="../nav/about.html" class="latest__bottom-link-btn">
-                                        <span class="latest__bottom-label">Đặt trước ngay</span>
-                                        <i class="latest__bottom-icon fa-solid fa-chevron-right"></i>
+                                </td>
+                                <td>
+                                    <span class="cart__name">Laptop Acer Aspire 5</span>
+                                </td>
+                                <td>
+                                    <span class="cart__price">10.190.000 ₫</span>
+                                </td>
+                                <td>
+                                    <div class="cart__quantity">
+                                        
+                                        <input type="number" value="1" min="1" class="cart__quantity-input" disabled>
+                                        
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="cart__subtotal">0 ₫</div>
+                                </td>
+                            </tr>
+                            <tr class="row-table">
+                                <td>
+                                    <input type="checkbox" name="" id="" class="cart__checkbox">
+                                </td>
+                                <td>
+                                    <a href="" class="cart__img-link">
+                                        <img src="../../assets/img/dell1.JPG" alt="" class="cart__img">
                                     </a>
-                                </div>
-                            </div>
-                        </div>
+                                </td>
+                                <td>
+                                    <span class="cart__name">Laptop Dell Latitude</span>
+                                </td>
+                                <td>
+                                    <span class="cart__price">7.990.000 ₫</span>
+                                </td>
+                                <td>
+                                    <div class="cart__quantity">
+                                        <input type="number" value="1" min="1" class="cart__quantity-input" disabled>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="cart__subtotal">0 ₫</div>
+                                </td>
+                            </tr>
+                            <tr class="row-table">
+                                <td>
+                                    <input type="checkbox" name="" id="" class="cart__checkbox">
+                                </td>
+                                <td>
+                                    <a href="" class="cart__img-link">
+                                        <img src="../../assets/img/mac1.JPG" alt="" class="cart__img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="cart__name">Apple Macbook Air</span>
+                                </td>
+                                <td>
+                                    <span class="cart__price">18.990.000 ₫</span>
+                                </td>
+                                <td>
+                                    <div class="cart__quantity">
+                                        <input type="number" value="1" min="1" class="cart__quantity-input" disabled>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="cart__subtotal">0 ₫</div>
+                                </td>
+                            </tr>
+                            <tr class="row-table">
+                                <td>
+                                    <input type="checkbox" name="" id="" class="cart__checkbox">
+                                </td>
+                                <td>
+                                    <a href="" class="cart__img-link">
+                                        <img src="../../assets/img/asus1.JPG" alt="" class="cart__img">
+                                    </a>
+                                </td>
+                                <td>
+                                    <span class="cart__name">Laptop ASUS Vivobook</span>
+                                </td>
+                                <td>
+                                    <span class="cart__price">17.590.000 ₫</span>
+                                </td>
+                                <td>
+                                    <div class="cart__quantity">
+                                        <input type="number" value="1" min="1" class="cart__quantity-input" disabled>
+                                    </div>
+                                </td>
+                                <td>
+                                    <div class="cart__subtotal">0 ₫</div>
+                                </td>
+                            </tr>
+                            <tr class="table__footer">
+                                <td colspan="5">
+                                    <span class="cart__total-label">Tổng tiền thanh toán</span>
+                                </td>
+                                <td>
+                                    <div class="cart__total">0 ₫</div>
+                                </td>
+                            </tr>
+                        </table>
                     </div>
                 </div>
             </div>
-
-            
         </div>
-    
+        <!-- End Container -->
+
         <!-- Begin Footer -->
         <footer class="footer">
             <div class="newsletter">
@@ -352,7 +335,7 @@
                                 <h2 class="newsletter__label">Newsletter Sign Up</h2>
                                 <div class="newsletter__title">Nhận thông tin mới nhất về sản phẩm và chương trình khuyến mãi của chúng tôi.</div>
                                 <div class="newsletter__wrap">
-                                    <input type="text" name="" id="" class="newsletter__input" placeholder="Email address">
+                                    <input type="text" value="" name="" id="" class="newsletter__input" placeholder="Email address">
                                     <button class="newsletter__btn">Đăng kí</button>
                                 </div>
                             </div>
@@ -436,32 +419,39 @@
             </div>
         </footer>
         <!-- End Footer -->
+    </div>
 
+    
 
-        <!-- Modal layout -->
-        <div class="modal js-modal">
-            <div class="modal__overlay js-modal__overlay"></div>
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
 
-            <div class="modal__body">
-                <div class="modal__inner">
-                    <!-- Search-form -->
-                    <div class="modal__search-form js-modal__search-form">
-                        <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
-                        <i class="search-form__input-icon fa-solid fa-xmark"></i>
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
                     </div>
-                    <!-- cart-list -->
-                    <div class="modal__cart-list js-modal__cart-list">
-                        <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
-                        <div class="modal__cart-list-body">
-                            <div class="modal__cart-list-label">Không có sản phẩm.</div>
-                        </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
                     </div>
                 </div>
             </div>
         </div>
-
-
-        <script src="../../assets/js/home.js"></script>
     </div>
+    <script src="../../assets/js/home.js"></script>
+    <script src="../../assets/js/cart.js"></script>
 </body>
 </html>

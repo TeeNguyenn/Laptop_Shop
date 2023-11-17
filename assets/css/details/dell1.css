@@ -1,3 +1,5 @@
+/* XAI CHUNG CHO ALL PRODUCT */
+
 .detail {
     padding: 50px 0 0;
 }
@@ -266,8 +268,292 @@
 .detail__cart-btn:hover {
     opacity: 0.9;
 }
+/* description */
+.detail__des {
+    margin-top: 200px;
+}
+.detail__des-heading {
+    display: flex;
+    align-items: center;
+}
+.detail__des-heading-description {
+    padding: 18px 26px;
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--secondary-color);
+    font-weight: var(--font-weight);
+    min-width: 170px;
+    text-align: center;
+    margin: 0 0 0 8px;
+    cursor: pointer;
+}
+.detail__des-heading-review {
+    padding: 18px 26px;
+    border-top: 1px solid var(--border-color);
+    border-left: 1px solid var(--border-color);
+    border-right: 1px solid var(--border-color);
+    font-size: 2.4rem;
+    line-height: 2.4rem;
+    color: var(--secondary-color);
+    font-weight: var(--font-weight);
+    min-width: 170px;
+    text-align: center;
+    cursor: pointer;
+}
+.detail__des-heading .active {
+    color: var(--accent-color);
+}
+.detail__des-body {
+    position: relative;
+    border-top: 1px solid var(--border-color);
+}
+.detail__des-description {
+    padding: 20px;
+    display: none;
+}
+.detail__des-description.active {
+    display: block;
+}
+.detail__des-description-title {
+    margin: 8px 0 48px;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+}
+.detail__des-description-text {
+    margin: 0 0 32px;
+    font-size: 1.4rem;
+    line-height: 2.6rem;
+    color: var(--secondary-color);
+}
+.detail__description-heading {
+    margin: 0 0 20px;
+    color: var(--text-color);
+    font-size: 2rem;
+    line-height: 2rem;
+    font-weight: var(--font-weight);
+}
+.detail__description-paragraph {
+    color: var(--text-color);
+    margin: 0 0 20px;
+    font-size: 1.5rem;
+    line-height: 2.4rem;
+}
+.detail__description-sub-heading {
+    font-size: 1.6rem;
+    font-weight: var(--font-weight);
+    margin-bottom: 10px;
+    color: var(--text-color);
+}
+.detail__description-sub-paragraph {
+    font-size: 1.4rem;
+    line-height: 2rem;
+    color: var(--text-color);
+    margin-bottom: 20px;
+}
+.detail__des-description-text a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+.detail__des-description-text a:hover {
+    color: var(--text-color);
+}
 
-/* temp */
-.footer {
-    margin-top: 150px;
+.detail__description-more-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    border: 1px solid var(--btn-color);
+    padding: 0 30px;
+    border-radius: 30px;
+    cursor: pointer;
+    font-size: 1.4rem;
+    line-height: 3rem;
+    color: var(--btn-color);
+    font-weight: var(--font-weight);
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-top: 40px;
+    transition: all 0.3s linear;
+}
+.detail__description-more-btn:hover {
+    color: var(--white-color);
+    background-color: var(--btn-color);
+}
+.detail__description-more-btn.hide {
+    display: none;
+}
+.detail__description-more-label {
+    margin-right: 4px;
+}
+.detail__description-more-icon {
+    font-size: 1rem;
+}
+.detail__description-more {
+    display: none;
+}
+.detail__description-more.show {
+    display: block;
+}
+.description-more__img-wrap {
+    width: 700px;
+    height: 700px;
+    position: relative;
+    left: 50%;
+    transform: translateX(-50%);
+    margin-bottom: 16px;
+}
+.description-more__img {
+    width: 100%;
+    height: 100%;
+    object-position: center;
+    object-fit: cover;
+}
+/* review */
+.detail__des-review {
+    display: none;
+    padding: 20px;
+}
+.detail__des-review.active {
+    display: block;
+}
+.detail__des-review-heading {
+    margin: 8px 0 24px;
+    font-size: 3.6rem;
+    line-height: 3.6rem;
+    font-weight: var(--font-weight);
+    color: var(--text-color);
+}
+.detail__des-review-noreview {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    margin: 0 0 32px;
+}
+.detail__des-review-title {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+    margin-bottom: 8px;
+}
+.detail__des-review-form {
+    font-size: 1.4rem;
+    color: var(--secondary-color);
+}
+.detail__des-review-notes {
+    margin-bottom: 12px;
+}
+.detail__des-review-form-rating {
+    line-height: 2rem;
+}
+.des-review-form-rating__stars {
+    font-size: 1.4rem;
+    margin-bottom: 16px;
+    cursor: pointer;
+    display: inline-flex;
+    padding-right: 32px;
+    flex-direction: row-reverse;
+}
+.des-review-form-rating__stars label {
+    font-size: 1.4rem;
+    width: 14px;
+    margin-right: 6px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+.des-review-form-rating__stars input {
+    display: none;
+}
+input:not(:checked) ~ label:hover,
+input:not(:checked) ~ label:hover ~ label {
+    color: var(--star-color);
+} 
+input:not(:checked) ~ label:hover {
+    color: var(--star-color);
+    text-shadow: 0 0 4px  rgba(0, 0, 0, 0.4);
+}
+input#rate-5:checked ~ label:hover {
+    color: var(--star-color);
+    text-shadow: 0 0 4px  rgba(0, 0, 0, 0.4);
+}
+input:checked ~ label {
+    color: var(--star-color);
+}
+/* input#rate-5:checked ~ label {
+    color: #fe7;
+    text-shadow: 0 0 20px #952;
+} */
+.des-review-form__form-comment {
+
+}
+.des-review-form__form-comment-label {
+    margin-bottom: 4px;
+}
+.des-review-form__form-comment-input {
+    padding: 7px 16px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    margin-bottom: 12px;
+}
+.des-review-form__form-comment-input:focus {
+    color: var(--secondary-color);
+}
+.des-review-form__form-author {
+
+}
+.des-review-form__form-author-label {
+    margin-bottom: 4px;
+}
+.des-review-form__form-author-input {
+    padding: 7px 16px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    margin-bottom: 12px;
+}
+.des-review-form__form-email {
+
+}
+.des-review-form__form-email-label {
+    margin-bottom: 4px;
+}
+.des-review-form__form-email-input {
+    padding: 7px 16px;
+    width: 100%;
+    border: 1px solid var(--border-color);
+    margin-bottom: 12px;
+}
+.des-review-form__remmember {
+    display: flex;
+    align-items: center;
+    margin-bottom: 12px;
+}
+.des-review-form__remmember-checkbox {
+    margin-right: 4px;
+}
+.des-review-form__remmember .des-review-form__remmember-label:hover {
+    color: var(--secondary-color);
+    text-shadow: none;
+}
+.des-review-form__btn {
+    font-size: 1.4rem;
+    line-height: 1.4rem;
+    border-radius: 3px;
+    background-color: #e9e6ed;
+    cursor: pointer;
+    padding: 8px 14px;
+    border: none;
+    min-width: 70px;
+    text-align: center;
+    font-weight: var(--font-weight);
+    margin-bottom: 12px;
+}
+.des-review-form__btn:hover {
+    background-color: #dcd7e3;
+}
+.latest.detail__latest {
+    background-color: var(--white-color);
+    padding: 50px 0 100px;
 }

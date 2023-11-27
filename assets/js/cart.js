@@ -41,6 +41,10 @@ function allCheck(checkboxList) {
             var count = 0;
 
             inputElement.onchange = (e) => {
+                // neu nhap vao so lon hon 99999 thi cho = 99999
+                if(inputElement.value > 99999) {
+                    inputElement.value = 99999
+                }
                 isChange = true;
                 if(againTick) {
                     sumPrice -= againTickValue
@@ -154,6 +158,9 @@ checkboxArr.forEach((checkbox, index) => {
             var count = 0;
 
             inputElement.onchange = (e) => {
+                if(inputElement.value > 99999) {
+                    inputElement.value = 99999
+                }
                 isChange = true;
                 if(againTick) {
                     sumPrice -= againTickValue

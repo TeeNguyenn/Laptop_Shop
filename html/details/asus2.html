@@ -1,0 +1,657 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tân & Minh Tiến</title>
+    <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/details/dell1.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+
+    <!-- set icon -->
+    <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Begin Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="grid wide header-top-wrapper">
+                    <div class="header-top-title">Chào mừng đến với Kompi Shop, Nâng cao công việc và giải trí với các dòng laptop tốt nhất!</div>
+                    <div class="header-top-widget">
+                        <div class="widget__track-order">
+                            <a href="../nav/order.html" class="track-order__link">
+                                <i class="track-order__link-icon fa-solid fa-truck fa-xs"></i>
+                                <span class="track-order__link-label">Theo dõi đơn hàng</span>
+                            </a>
+                        </div>
+                        <div class="widget__language">
+                            <a href="../nav/about.html" class="widget__language-link">
+                                <span class="language__label">Vietnamese</span>
+                                <i class="language__icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="language__list">
+                                <li class="language__list-item">
+                                    <a href="../nav/about.html" class="language__list-item-link">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="../nav/login.html" class="widget__login">
+                            <i class="login__icon fa-solid fa-user"></i>
+                            <span class="login__label">Đăng nhập / Đăng kí</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <div class="grid wide navbar__container">
+                    <div class="navbar__logo">
+                        <a href="../home/index.html" class="navbar__logo-link">
+                            <img src="../../assets/img/logo-kompi-dark.png" alt="" class="navbar__logo-img">
+                        </a>
+                    </div>
+
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a href="../home/index.html" class="navbar__list-item-link">Trang chủ</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">About</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/shop.html" class="navbar__list-item-link">
+                                Shop
+                                <!-- <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i> -->
+                            </a>
+                            <!-- <ul class="navbar__shop-menu">
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Chi tiết sản phẩm</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Theo dõi đơn hàng</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Trang đăng nhập</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">
+                                <span>Trang</span>
+                                <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="navbar__pages-menu">
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Team</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/cart.html" class="navbar__pages-option-link">Đặt hàng</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Địa điểm</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Giá</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Liên hệ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">FAQ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Feedback</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">404 page</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Popups Banner</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/blog.html" class="navbar__list-item-link">Blog</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__search js-navbar__search">
+                        <i class="navbar__search-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="navbar__shopping-cart js-navbar__shopping-cart">
+                        <div class="shopping-cart-link">
+                            <span class="shopping-cart-link-total">$0</span>
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                            <span class="shopping-cart-link-qty">0</span>
+                        </div>
+                    </div>
+
+                    <div class="navbar__infor">
+                        <i class="navbar__infor-icon fa-solid fa-headset"></i>
+                        <div class="navbar__infor-body">
+                            <div class="navbar__infor-phone">(+84) 333 444 555</div>
+                            <div class="navbar__infor-mail">Email: info@Kompi.com</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-bottom">
+                <div class="grid wide header-bottom-container">
+                    <ul class="header-bottom__menu">
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Deals</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Seller</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Gaming PC</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Phụ Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Linh Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Thiết Bị Mạng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </header>
+        <!-- End Header -->
+
+        <!-- Begin Container -->
+        <div class="container">
+            <div class="detail">
+                <div class="grid wide">
+                    <div class="row large-gutter">
+                        <div class="col l-6">
+                            <div class="detail__img-wrap">
+                                <div class="detail__img-feature-list">
+                                    <img src="../../assets/img/asus2-1.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-2.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-3.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-4.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-5.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-6.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-7.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-8.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-9.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/asus2-10.jpg" alt="" class="detail__img">
+                                </div>
+                                <div class="detail__img-control-prev">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="detail__img-control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__img-label">
+                                    <span class="detail__img-current">1</span>
+                                    <span class="detail__img-total">/10</span>
+                                </div>
+                            </div>
+                            <div class="detail__list-img-wrapper">
+                                <div class="control-prev control-prev--hide">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__list-img-content">
+                                    <div class="row sm-gutter detail__list-img">
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-1.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-2.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-3.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-4.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-5.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-6.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-7.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-8.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-9.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/asus2-s-10.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="detail__body">
+                                <h2 class="detail__label">Laptop Asus VivoBook 14 F415EA US i3 1115G4 RAM 8GB FHD</h2>
+                                <div class="detail__price">
+                                    <div class="detail__old-price">15.390.000<sup>₫</sup></div>
+                                    <div class="detail__cur-price">11.790.000<sup>₫</sup></div>
+                                </div>
+                                <div class="detail__advantage">
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        CPU: 11th Generation Intel® Core™ i3 1115G4 Processor Base Frequency 1.70GHz, Max Turbo 4.10GHz ( 2 Cores, 4 Threads, 6MB Smart Cache)
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        RAM: 8GB DDR4
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        VGA: UHD Graphics
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Màn Hình: 14.0-inch, FHD (1920 x 1080) 16:9 aspect ratio, IPS-level Panel, LED Backlit, 250nits, 45% NTSC color gamut for non-OLED, Anti-glare display
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Cổng giao tiếp: 1x USB 2.0 Type-A; 1x USB 3.2 Gen 1 Type-C; 2x USB 2.0 Type-A; 1x HDMI 1.4; 1x 3.5mm Combo Audio Jack
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        PIN/Battery: 42WHrs, 3S1P, 3-cell Li-ion
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Trọng lượng: 1.40 kg (3.09 lbs)
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Bàn phím: Có LED
+                                    </p>
+                                    <p class="detail__advantage-more">Xem thêm ></p>
+                                </div>
+                                <div class="detail__cart">
+                                    <div class="detail__cart-quantity">
+                                        <input type="number" class="detail__cart-num" value="1" min="1" size="4" step="1">
+                                    </div>
+                                    <button type="submit" class="detail__cart-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail__des">
+                        <div class="detail__des-heading">
+                            <div class="detail__des-heading-description active">Chi tiết</div>
+                            <div class="detail__des-heading-review">Đánh giá (0)</div>
+                        </div>
+                        <div class="detail__des-body">
+                            <div class="detail__des-description active">
+                                <h2 class="detail__des-description-title">Chi tiết</h2>
+                                <div class="detail__des-description-text">
+                                    <p class="detail__description-heading">Về Laptop <a href="">Asus VivoBook 14 F415EA</a> US này</p>
+                                    <p class="detail__description-paragraph">Chiếc laptop bạn đang xem là hàng nhập khẩu từ Mỹ, do hệ thống Laptopxachtayshop nhập theo tiêu chuẩn kiểm định nghiêm ngặt của Hoa Kỳ.</p>
+                                    <p class="detail__description-paragraph">Tại trung tâm kỹ thuật của Laptopxachtayshop, đội ngũ kỹ sư của chúng tôi giám định chất lượng sản phẩm bằng nhiều thiết bị đo chuyên dụng ATSE để đảm bảo chiếc máy tính trước khi giao đi phải đáp ứng các tiêu chí độ bền tốt nhất cho người dùng.</p>
+                                    <p class="detail__description-heading">Đánh giá <a href="">Asus VivoBook 14 F415EA</a> tại Kompishop</p>
+                                    <p class="detail__description-paragraph">Laptop <a href="">Asus VivoBook 14 F415EA</a> sở hữu ưu điểm cả về ngoại hình bắt mắt, gọn nhẹ và hiệu năng ổn định từ bộ vi xử lý Intel thế hệ 11, đây sẽ là người bạn đồng hành hoàn hảo cho học sinh, sinh viên hay nhân viên văn phòng.</p>
+                                    <h3 class="detail__description-sub-heading">Hiệu năng mạnh mẽ, xử lý tốt các tác vụ văn phòng</h3>
+                                    <p class="detail__description-sub-paragraph">Laptop Asus được trang bị chip Intel Core i3 hoặc i5 Tiger Lake thế hệ 11 mạnh mẽ giúp người dùng đạt được hiệu suất cao khi thực hiện các tác vụ văn phòng như: Word, Excel, Powerpoint,…</p>
+                                    
+                                    
+                                    <div class="detail__description-more-btn">
+                                        <span class="detail__description-more-label">Xem thêm</span>
+                                        <i class="detail__description-more-icon fa-solid fa-chevron-down"></i>
+                                    </div>
+
+                                    <div class="detail__description-more">
+                                        <p class="detail__description-sub-paragraph">Kèm theo là card đồ họa tích hợp Intel Iris Xe Graphics hỗ trợ tối đa hiệu suất cho máy, đáp ứng xử lý các tác vụ đồ họa 2D, render video cơ bản, chỉnh sửa ảnh trên Photoshop, Illustrator,…</p>
+                                        <p class="detail__description-sub-paragraph">RAM 8 GB ( Nâng cấp tùy chọn ) chuẩn DDR4 mang lại tốc độ Bus RAM lên đến 3200 MHz cho phép bạn xử lý mượt mà các tác vụ phức tạp, mở cùng lúc nhiều cửa sổ làm việc, ngoài ra máy còn được hỗ trợ nâng cấp RAM tối đa lên đến 20 GB đáp ứng nhu cầu cao cấp hơn của người dùng.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/asus2-1.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> Cấu hình</h3>
+                                        <p class="detail__description-sub-paragraph">Ổ cứng SSD NVMe PCIe cho tốc độ mở máy, truy xuất dữ liệu nhanh chóng. Khe cắm HDD SATA sẽ giúp nâng cấp ổ cứng, đáp ứng nhu cầu lưu trữ cao cấp hơn của người dùng.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/asus2-8.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading">Thiết kế sành điệu, trẻ trung</h3>
+                                        <p class="detail__description-sub-paragraph">Laptop Asus VivoBook sở hữu lớp vỏ nhựa đầy cứng cáp với tông màu bạc thời thường, kiểu dáng nhỏ gọn phù hợp với mọi môi trường làm việc.</p>
+                                        <p class="detail__description-sub-paragraph">Trọng lượng 1.55 kg và độ dày 19.9 mm đúng chuẩn của một chiếc laptop học tập – văn phòng, giúp bạn dễ dàng mang theo bên mình, đảm bảo công việc luôn được liên tục, đều đặn.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/asus2-2.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> Thiết kế</h3>
+                                        <p class="detail__description-sub-paragraph">Laptop được trang bị đầy đủ các cổng kết nối thông dụng như: 1 x USB 3.2, HDMI, 2 x USB 2.0, USB Type-C, Ngoài ra chuẩn không dây Bluetooth 4.1 và Wi-Fi 802.11 a/b/g/n/ac hiện đại cũng được hỗ trợ, đảm bảo kết nối luôn được duy trì ổn định.</p>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> Cổng kết nối</h3>
+                                        <p class="detail__description-sub-paragraph">Bảo mật vân tay tích hợp trên bàn di chuột, tiện lợi, giúp đăng nhập dễ dàng, mở ứng dụng chỉ với một chạm, bạn không cần phải nhập mật khẩu rườm rà mỗi ngày nữa.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/asus2-7.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> – Vân tay</h3>
+                                        <p class="detail__description-sub-paragraph">Thế giới giải trí hoàn hảo</p>
+                                        <p class="detail__description-sub-paragraph">Kích thước màn hình 14 inch có độ phân giải Full HD (1920 x 1080) và độ sáng 250 nits cho hình ảnh tươi sáng, sắc nét trong các môi trường làm việc khác nhau với cường độ sáng bình thường.</p>
+                                        <p class="detail__description-sub-paragraph">Công nghệ chống chói Anti Glare giúp bảo vệ tốt thị giác, giảm mỏi mắt, lóa mắt tránh bị đổ bóng nhưng vẫn đảm bảo tiết kiệm điện năng nhờ công nghệ LED Backlit.</p>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> – Hình ảnh</h3>
+                                        <p class="detail__description-sub-paragraph">Công nghệ âm thanh SonicMaster loại bỏ tốt tiếng ồn, mang đến cho bạn những nốt nhạc chất lượng, đem đến trải nghiệm âm thanh tuyệt vời khi giải trí, làm việc.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/asus2-3.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading"><a href="">Asus VivoBook 14 F415EA</a> – Âm thanh</h3>
+                                        <p class="detail__description-sub-paragraph">VGA Webcam giúp việc kết nối, thực hiện các cuộc gọi trực tuyến chất lượng với gia đình, bạn bè, hỗ trợ tối đa trong việc học tập và làm việc từ xa.</p>
+                                        <p class="detail__description-sub-paragraph">Với nhiều ưu điểm nổi bật Laptop <a href="">Asus VivoBook 14 F415EA</a> xứng đáng là một trong những lựa chọn sắp tới của các bạn học sinh hay nhân viên văn phòng</p>
+                                        <p class="detail__description-sub-paragraph">Chiếc máy tính xách tay này là hàng chính hãng tại Mỹ đạt nhiều tiêu chuẩn chất lượng khắc khe hàng đầu thế giới như CE , AS, GS… nên được nhiều tập đoàn lựa chọn làm việc ở nhiều môi trường khác nhau do máy đáp ứng tốt về đa ứng dụng, luôn an toàn đảm bảo về điện và pin của máy ,  Hệ thống Laptopxachtayshop muốn mang lại cho người dùng những gì bền bỉ nhất và chất lượng cao nhất từ Mỹ. Khi sử dụng người dùng sẽ cảm nhận được sự khác biệt từ chất liệu, mainbo và tuổi thọ của máy tính cũng bền hơn so với nhiều mặt hàng cùng loại trên thị trường. </p>
+                                        
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail__des-review">
+                                <h2 class="detail__des-review-heading">Đánh giá</h2>
+                                <div class="detail__des-review-noreview">Hiện tại không có đánh giá nào</div>
+                                <div class="detail__des-review-title">Hãy là người đầu tiên đánh giá "Laptop Asus Vivobook 15 OLED A1505VA"</div>
+                                <div class="detail__des-review-form">
+                                    <div class="detail__des-review-notes">Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu *</div>
+                                    <div class="detail__des-review-form-rating">
+                                        <div class="des-review-form-rating__label">Đánh giá của bạn *</div>
+                                        <div class="des-review-form-rating__stars">
+                                            <input type="radio" name="rate" id="rate-5" class="">
+                                            <label for="rate-5" class="star-5 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-4" class="">
+                                            <label for="rate-4" class="star-4 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-3" class="">
+                                            <label for="rate-3" class="star-3 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-2" class="">
+                                            <label for="rate-2" class="star-2 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-1" class="">
+                                            <label for="rate-1" class="star-1 fa-solid fa-star"></label>
+                                        </div>
+                                    </div>
+                                    <div class="des-review-form__form-comment">
+                                        <div for="" class="des-review-form__form-comment-label">Nhận xét của bạn *</div>
+                                        <textarea name="" id="" cols="30" rows="4" class="des-review-form__form-comment-input"></textarea>
+                                    </div>
+                                    <div class="des-review-form__form-author">
+                                        <div class="des-review-form__form-author-label">Tên*</div>
+                                        <input type="text" class="des-review-form__form-author-input">
+                                    </div>
+                                    <div class="des-review-form__form-email">
+                                        <div for="" class="des-review-form__form-email-label">Email*</div>
+                                        <input type="text" class="des-review-form__form-email-input">
+                                    </div>
+                                    <div class="des-review-form__remmember">
+                                        <input type="checkbox" class="des-review-form__remmember-checkbox" id="remember">
+                                        <label for="remember" class="des-review-form__remmember-label">Lưu tên, email và trang web của tôi trong trình duyệt này cho lần bình luận tiếp theo.</;>
+                                    </div>
+                                    <button class="des-review-form__btn">Gửi</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Begin Related -->
+                <div class="latest detail__latest">
+                    <div class="grid wide">
+                        <div class="latest-heading">
+                            <div class="latest__header-wrap">
+                                <div class="header-label">RELATED</div>
+                                <div class="latest__header-body">
+                                    <div class="latest__header-title">Sản phẩm liên quan</div>
+                                    <div class="latest__header-text">Sản Phẩm Mới Ra Lò: Tích Hợp Công Nghệ Hiện Đại</div>
+                                </div>
+                            </div>
+                            <div class="latest__btn-wrap">
+                                <a href="../nav/about.html" class="view-all-btn">
+                                    <span class="view-all-btn__label">Xem tất cả</span>
+                                    <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="row no-gutters latest__product-list">
+                            <div class="col l-2">
+                                <a href="../details/acer3.html" class="product-item">
+                                    <img src="../../assets/img/acer3.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Acer Nitro 5 Tiger AN515 i5 12500H M2.SSD 512GB FHD 144Hz NVIDIA GeForce RTX 3050</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">22.390.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/mac4.html" class="product-item">
+                                    <img src="../../assets/img/mac4.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Macbook Air 13.3 inch M1 2020 RAM 8GB M2.SATA 256GB silver</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">18.590.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/dell4.html" class="product-item">
+                                    <img src="../../assets/img/dell4.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Dell Inspiron 14 7435 2-in-1 R5 7530U RAM 8GB M2.SSD 512GB FHD</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">17.790.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/acer1.html" class="product-item">
+                                    <img src="../../assets/img/acer1.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Acer Aspire 5 A515 56 36UT i3 1115G4 RAM 8GB FHD</h2>
+                                    <div class="product-item__price">                                    
+                                        <div class="product-item__old-price">10.350.000<sup>₫</sup></div>
+                                        <div class="product-item__new-price">10.190.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/asus3.html" class="product-item">
+                                    <img src="../../assets/img/asus3.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Asus TUF Gaming FX506HC i5 11400H RAM 8GB M2.SSD 512GB NVIDIA GeForce RTX 3050 4GB</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">19.090.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/mac2.html" class="product-item">
+                                    <img src="../../assets/img/mac2.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Macbook Pro 13 inch 2020 M1 RAM 8GB SSD 256GB Touchbar Gray</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">29.890.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Related -->
+            </div>
+        </div>
+        <!-- End Container -->
+
+        <!-- Begin Footer -->
+        <footer class="footer">
+            <div class="newsletter">
+                <div class="grid wide">
+                    <div class="newsletter__background-overlay"></div>
+                    <div class="row no-gutters">
+                        <div class="col l-12">
+                            <div class="newsletter__body">
+                                <h2 class="newsletter__label">Newsletter Sign Up</h2>
+                                <div class="newsletter__title">Nhận thông tin mới nhất về sản phẩm và chương trình khuyến mãi của chúng tôi.</div>
+                                <div class="newsletter__wrap">
+                                    <input type="text" name="" id="" class="newsletter__input" placeholder="Email address">
+                                    <button class="newsletter__btn">Đăng kí</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="grid wide">
+                    <div class="contact__container">
+                        <div class="contact__about-us">
+                            <div class="contact__about-us-title">Về chúng tôi</div>
+                            <p class="contact__about-us-text">Chúng tôi luôn đề cao chất lượng và sự hài lòng của khách hàng</p>
+                            <img src="../../assets/img/logo-kompi-light.png" alt="" class="contact__about-us-img">
+                        </div>
+                        <div class="contact__location">
+                            <div class="contact__location-title">Địa điểm</div>
+                            <div class="contact__location-address">Số 2 Đường Võ Oanh, Phường 25, Quận Bình Thạnh, Tp HCM</div>
+                            <div class="contact__location-mail">customer@kompi.com</div>
+                            <div class="contact__location-phone">(+021) 345 678 910</div>
+                        </div>
+                        <div class="contact__service">
+                            <div class="contact__service-title">DỊCH VỤ KHÁCH HÀNG</div>
+                            <div class="contact__service-body">
+                                <a href="../nav/about.html" class="contact__service-option">Trung tâm hỗ trợ</a>
+                                <a href="../nav/about.html" class="contact__service-option">Theo dõi đơn hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Trả hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Chính sách hoàn trả</a>
+                                <a href="../nav/about.html" class="contact__service-option">Riêng tư&Bảo mật</a>
+                                <a href="../nav/about.html" class="contact__service-option">Feedback</a>
+                            </div>
+                        </div>
+                        <div class="contact__quick-link">
+                            <div class="contact__quick-link-title">LIÊN KẾT</div>
+                            <div class="contact__quick-link-body">
+                                <a href="../nav/about.html" class="contact__quick-link-option">Liên hệ chúng tôi </a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Về chúng tôi</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Hình thức thanh toán</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Sự nghiệp</a>
+                            </div>
+                        </div>
+                        <div class="contact__brands">
+                            <div class="contact__brands-title">BRANDS</div>
+                            <div class="contact__brands-body">
+                                <a href="../nav/about.html" class="contact__brands-option">Kinh doanh</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Nhãn hiệu toàn cầu</a>
+                                <a href="../nav/about.html" class="contact__brands-option">ABS</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Rosewill</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social">
+                <div class="social__background-overlay"></div>
+                <div class="grid wide">
+                    <div class="row no-gutters social__container">
+                        <div class="col l-6">
+                            <div class="social__heading">© 2023 Kompi. Powered by TeeDev</div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="social__wrapper">
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/home.js"></script>
+
+    <script src="../../assets/js/detail_Product.js"></script>
+</body>
+</html>

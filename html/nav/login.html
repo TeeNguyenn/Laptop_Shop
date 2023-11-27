@@ -27,12 +27,14 @@
                     <div class="header-label">MEMBERSHIP</div>
                     <h2 class="login__title">Đăng nhập</h2>
                     <p class="login__text">Để bắt đầu trải nghiệm trang web của chúng tôi, xin vui lòng đăng nhập bằng tài khoản của bạn.</p>
-                    <form action="" class="login-form">
+                    <form action="" class="login-form" id="login-form">
                         <div class="login__input-container">
-                            <input type="text" class="login__user" placeholder="Tên đăng nhập" required>
+                            <input type="text" class="login__user" placeholder="Tên đăng nhập" id="fullname">
+                            <span class="login__message"></span>
                         </div>
                         <div class="login__input-container">
-                            <input type="password" name="" id="" class="login__pass" placeholder="Mật khẩu" required>
+                            <input type="password" name="" class="login__pass" placeholder="Mật khẩu" id="password">
+                            <span class="login__message"></span>
                         </div>
                         <div class="login__container-cover">
                             <input type="checkbox" name="" id="login__checkbox-id" class="login__checkbox">
@@ -84,5 +86,23 @@
         </div>
     </div>
     <script src="../../assets/js/home.js"></script>
+    <script src="../../assets/js/validate.js"></script>
+
+    <script>
+        Validator({
+            form: '#login-form',
+            formGroupSelector: '.login__input-container',
+            errorSelector: '.login__message',
+            rules: [
+                Validator.isRequired('#fullname'),
+                Validator.isRequired('#password'),
+                Validator.minLength('#password', 6),
+            ],
+            // onSubmit: function(data) {
+            //   // Call API
+            //   console.log(data)
+            // }
+        })
+    </script>
 </body>
 </html>

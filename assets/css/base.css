@@ -43,7 +43,9 @@ html {
     box-sizing: border-box;
     font-family: font_Roboto, sans-serif;
 }
-
+.bold-text {
+    font-weight: var(--font-weight);
+}
 /* Animation */
 
 @keyframes fadeIn{

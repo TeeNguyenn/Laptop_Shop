@@ -289,6 +289,7 @@
     text-align: center;
     margin: 0 0 0 8px;
     cursor: pointer;
+    user-select: none;
 }
 .detail__des-heading-review {
     padding: 18px 26px;
@@ -302,6 +303,7 @@
     min-width: 170px;
     text-align: center;
     cursor: pointer;
+    user-select: none;
 }
 .detail__des-heading .active {
     color: var(--accent-color);
@@ -334,7 +336,7 @@
     margin: 0 0 20px;
     color: var(--text-color);
     font-size: 2rem;
-    line-height: 2rem;
+    line-height: 2.6rem;
     font-weight: var(--font-weight);
 }
 .detail__description-paragraph {
@@ -358,6 +360,7 @@
 .detail__des-description-text a {
     color: var(--primary-color);
     text-decoration: none;
+    font-weight: var(--font-weight);
 }
 .detail__des-description-text a:hover {
     color: var(--text-color);

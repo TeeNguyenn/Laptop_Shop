@@ -83,6 +83,9 @@
     font-size: 1.6rem;
     line-height: 1.6rem;
     overflow: hidden;
+
+    /* khong cho keo tha de thay doi kich thuoc */
+    /* resize: none; */
 }
 .sign-up__policy {
     display: flex;

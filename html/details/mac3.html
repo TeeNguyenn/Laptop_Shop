@@ -1,0 +1,649 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Thanh Tân & Minh Tiến</title>
+    <link rel="shortcut icon" href="../../assets/img/shop_logo.png" type="image/x-icon">
+    
+    <link rel="stylesheet" href="../../assets/css/reset.css">
+    <link rel="stylesheet" href="../../assets/css/base.css">
+    <link rel="stylesheet" href="../../assets/css/main.css">
+    <link rel="stylesheet" href="../../assets/css/details/dell1.css">
+    <link rel="stylesheet" href="../../assets/css/grid.css">
+
+    <!-- set icon -->
+    <link rel="stylesheet" href="../../assets/icon/fontawesome-free-6.4.2-web/css/all.min.css">
+</head>
+<body>
+    <div class="app">
+        <!-- Begin Header -->
+        <header class="header">
+            <div class="header-top">
+                <div class="grid wide header-top-wrapper">
+                    <div class="header-top-title">Chào mừng đến với Kompi Shop, Nâng cao công việc và giải trí với các dòng laptop tốt nhất!</div>
+                    <div class="header-top-widget">
+                        <div class="widget__track-order">
+                            <a href="../nav/order.html" class="track-order__link">
+                                <i class="track-order__link-icon fa-solid fa-truck fa-xs"></i>
+                                <span class="track-order__link-label">Theo dõi đơn hàng</span>
+                            </a>
+                        </div>
+                        <div class="widget__language">
+                            <a href="../nav/about.html" class="widget__language-link">
+                                <span class="language__label">Vietnamese</span>
+                                <i class="language__icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="language__list">
+                                <li class="language__list-item">
+                                    <a href="../nav/about.html" class="language__list-item-link">English</a>
+                                </li>
+                            </ul>
+                        </div>
+                        <a href="../nav/login.html" class="widget__login">
+                            <i class="login__icon fa-solid fa-user"></i>
+                            <span class="login__label">Đăng nhập / Đăng kí</span>
+                        </a>
+
+                    </div>
+                </div>
+            </div>
+
+            <nav class="navbar">
+                <div class="grid wide navbar__container">
+                    <div class="navbar__logo">
+                        <a href="../home/index.html" class="navbar__logo-link">
+                            <img src="../../assets/img/logo-kompi-dark.png" alt="" class="navbar__logo-img">
+                        </a>
+                    </div>
+
+                    <ul class="navbar__list">
+                        <li class="navbar__list-item">
+                            <a href="../home/index.html" class="navbar__list-item-link">Trang chủ</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">About</a>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/shop.html" class="navbar__list-item-link">
+                                Shop
+                                <!-- <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i> -->
+                            </a>
+                            <!-- <ul class="navbar__shop-menu">
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Chi tiết sản phẩm</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Theo dõi đơn hàng</a>
+                                </li>
+                                <li class="navbar__shop-otions">
+                                    <a href="../nav/about.html" class="navbar__shop-option-link">Trang đăng nhập</a>
+                                </li>
+                            </ul> -->
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/about.html" class="navbar__list-item-link">
+                                <span>Trang</span>
+                                <i class="navbar__list-item-link-icon fa-solid fa-solid fa-angle-down"></i>
+                            </a>
+                            <ul class="navbar__pages-menu">
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Team</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/cart.html" class="navbar__pages-option-link">Đặt hàng</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Địa điểm</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Giá</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Liên hệ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">FAQ</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Feedback</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">404 page</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Popups Banner</a>
+                                </li>
+                                <li class="navbar__pages-otions">
+                                    <a href="../nav/about.html" class="navbar__pages-option-link">Coming Soon</a>
+                                </li>
+                            </ul>
+                        </li>
+                        <li class="navbar__list-item">
+                            <a href="../nav/blog.html" class="navbar__list-item-link">Blog</a>
+                        </li>
+                    </ul>
+
+                    <div class="navbar__search js-navbar__search">
+                        <i class="navbar__search-icon fa-solid fa-magnifying-glass"></i>
+                    </div>
+
+                    <div class="navbar__shopping-cart js-navbar__shopping-cart">
+                        <div class="shopping-cart-link">
+                            <span class="shopping-cart-link-total">$0</span>
+                            <i class="fa-sharp fa-solid fa-bag-shopping"></i>
+                            <span class="shopping-cart-link-qty">0</span>
+                        </div>
+                    </div>
+
+                    <div class="navbar__infor">
+                        <i class="navbar__infor-icon fa-solid fa-headset"></i>
+                        <div class="navbar__infor-body">
+                            <div class="navbar__infor-phone">(+84) 333 444 555</div>
+                            <div class="navbar__infor-mail">Email: info@Kompi.com</div>
+                        </div>
+                    </div>
+                </div>
+            </nav>
+
+            <div class="header-bottom">
+                <div class="grid wide header-bottom-container">
+                    <ul class="header-bottom__menu">
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Deals</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Best Seller</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Gaming PC</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Phụ Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Linh Kiện Máy Tính</a>
+                        </li>
+                        <li class="header-bottom__items">
+                            <a href="../nav/about.html" class="header-bottom_item-link">Thiết Bị Mạng</a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+           
+        </header>
+        <!-- End Header -->
+
+        <!-- Begin Container -->
+        <div class="container">
+            <div class="detail">
+                <div class="grid wide">
+                    <div class="row large-gutter">
+                        <div class="col l-6">
+                            <div class="detail__img-wrap">
+                                <div class="detail__img-feature-list">
+                                    <img src="../../assets/img/mac3-1.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-2.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-3.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-4.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-5.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-6.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-7.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-8.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-9.jpg" alt="" class="detail__img">
+                                    <img src="../../assets/img/mac3-10.jpg" alt="" class="detail__img">
+                                </div>
+                                <div class="detail__img-control-prev">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="detail__img-control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__img-label">
+                                    <span class="detail__img-current">1</span>
+                                    <span class="detail__img-total">/10</span>
+                                </div>
+                            </div>
+                            <div class="detail__list-img-wrapper">
+                                <div class="control-prev control-prev--hide">
+                                    <i class="fa-solid fa-chevron-left"></i>
+                                </div>
+                                <div class="control-next">
+                                    <i class="fa-solid fa-chevron-right"></i>
+                                </div>
+                                <div class="detail__list-img-content">
+                                    <div class="row sm-gutter detail__list-img">
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-1.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-2.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-3.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-4.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-5.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-6.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-7.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-8.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-9.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        <div class="col l-3">
+                                            <div class="list-img__item">
+                                                <img src="../../assets/img/mac3-s-10.jpg" alt="" class="list-img__item-img">
+                                            </div>
+                                        </div>
+                                        
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="detail__body">
+                                <h2 class="detail__label">Apple Macbook Pro 16 inch 2019 i7 2.6Ghz RAM 32GB SSD 512GB AMD Radeon Pro 5300M</h2>
+                                <div class="detail__price">
+                                    <!-- <div class="detail__old-price">19.000.000<sup>₫</sup></div> -->
+                                    <div class="detail__cur-price">30.590.000<sup>₫</sup></div>
+                                </div>
+                                <div class="detail__advantage">
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        2.6GHz 6-core 9th-generation Intel Core i7 processor
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Turbo Boost up to 4.5GHz
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        AMD Radeon Pro 5300M with 4GB of GDDR6 memory
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        32GB 2666MHz DDR4 memory
+                                    </p>
+                                    <p class="detail__advantage-item">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        512GB SSD storage¹
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        16-inch Retina display with True Tone 3072 x 1920 Pixel, IPS,
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Touch Bar and Touch ID
+                                    </p>
+                                    <p class="detail__advantage-item detail__advantage-item--hide">
+                                        <i class="detail__advantage-icon fa-solid fa-circle-check"></i>
+                                        Four Thunderbolt 3 ports
+                                    </p>
+                                    <p class="detail__advantage-more">Xem thêm ></p>
+                                </div>
+                                <div class="detail__cart">
+                                    <div class="detail__cart-quantity">
+                                        <input type="number" class="detail__cart-num" value="1" min="1" size="4" step="1">
+                                    </div>
+                                    <button type="submit" class="detail__cart-btn">Thêm vào giỏ hàng</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="detail__des">
+                        <div class="detail__des-heading">
+                            <div class="detail__des-heading-description active">Chi tiết</div>
+                            <div class="detail__des-heading-review">Đánh giá (0)</div>
+                        </div>
+                        <div class="detail__des-body">
+                            <div class="detail__des-description active">
+                                <h2 class="detail__des-description-title">Chi tiết</h2>
+                                <div class="detail__des-description-text">
+                                    <p class="detail__description-heading">Đánh giá chi tiết MacBook Pro 16 2019 Touch Bar 2.6GHz Core i7 tại Kompishop.com</p>
+                                    <p class="detail__description-paragraph">MacBook Pro 16 Touch Bar là chiếc MacBook có màn hình lớn nhất từ trước đến nay, mang đến cho bạn không gian làm việc lý tưởng, thực sự chuyên nghiệp với hiệu năng mạnh mẽ hiếm có.</p>
+                                    <h3 class="detail__description-sub-heading">Chiếc MacBook màn hình lớn nhất, phá vỡ giới hạn</h3>
+                                    <p class="detail__description-sub-paragraph">Mọi giới hạn sinh ra là để phá vỡ, MacBook Pro 16 Touch Bar đã nâng cấp kích thước màn hình lên 16 inch và trở thành chiếc MacBook có màn hình lớn nhất từ trước tới nay. Bạn sẽ được tận hưởng màn hình Retina tuyệt đẹp, độ sáng tối đa 500 nits và hiển thị màu đen với độ sâu hoàn hảo. Màu sắc chính xác gần như tuyệt đối, gam màu rộng P3 giúp hình ảnh và video hiển thị chân thực, sống động. Một không gian làm việc lớn hơn, chuyên nghiệp hơn đang chờ đón bạn, đặc biệt là công việc đồ họa vốn đòi hỏi một màn hình chính xác.</p>
+
+                                    <div class="detail__description-more-btn">
+                                        <span class="detail__description-more-label">Xem thêm</span>
+                                        <i class="detail__description-more-icon fa-solid fa-chevron-down"></i>
+                                    </div>
+
+                                    <div class="detail__description-more">
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/mac3-1.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading">Hiệu năng mạnh mẽ hơn với bộ vi xử lý Intel Core i7</h3>
+                                        <p class="detail__description-sub-paragraph">Bạn cần một chiếc máy tính có thể làm việc với tốc độ nhanh như những ý tưởng chợt hiện lên trong đầu, MacBook Pro 16 Touch Bar chính là sản phẩm bạn đang tìm. Bộ vi xử lý Intel Core i7 với 6 lõi và 12 luồng cho hiệu năng xử lý mạnh mẽ trong thời gian dài. Cho dù bạn đang làm những tác vụ nặng như biên soạn nhạc; hiển thị mô hình 3D; lập trình, … máy tính sẽ làm việc và xử lý ngay lập tức.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/mac3-2.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading">Quạt tản nhiệt mới, mát hơn 35%</h3>
+                                        <p class="detail__description-sub-paragraph">Để xây dựng một chiếc MacBook hoàn toàn mới, Apple đã thiết kế lại hoàn toàn cấu trúc nhiệt trên MacBook Pro 16 Touch Bar. Những cánh quạt lớn hơn được cải tiến về luồng khí tối ưu giúp tản nhiệt, làm mát hiệu quả hơn. Kết quả là luồng không khí tăng đến 28% và tản nhiệt hiệu quả hơn 35%. Bạn có thể làm việc trong thời gian dài mà hiệu năng vẫn mạnh mẽ một cách ổn định.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/mac3-5.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading">Bộ nhớ RAM 16GB DDR4 siêu đa nhiệm</h3>
+                                        <p class="detail__description-sub-paragraph">MacBook Pro 16 Touch Bar phiên bản trong bài sử dụng bộ nhớ RAM DDR4 lên tới 16GB, giúp chạy đa nhiệm nhiều hơn. Dù là đang mở hàng trăm bài nhạc, chỉnh những bức ảnh độ phân giải hàng tỷ pixels hoặc chạy nhiều máy ảo, MacBook Pro 16 Touch Bar vẫn đáp ứng tốt yêu cầu về hoạt động đa nhiệm.</p>
+                                        <div class="description-more__img-wrap">
+                                            <img src="../../assets/img/mac3-8.jpg" alt="" class="description-more__img">
+                                        </div>
+                                        <h3 class="detail__description-sub-heading">Xử lý đồ họa tuyệt đỉnh bằng card đồ họa rời AMD Radeon Pro 5300M</h3>
+                                        <p class="detail__description-sub-paragraph">MacBook Pro 16 Touch Bar sử dụng dòng card đồ họa AMD Radeon Pro 5000 M series, mang lại sức mạnh đồ họa chưa từng có trên dòng MacBook Pro. So với phiên bản tiêu chuẩn của thế hệ trước, MacBook Pro 16 có khả năng xử lý đồ họa mạnh gấp hai lần. Card đồ họa AMD Radeon Pro 5300M với 4GB VRAM DDR6, cho phép bạn chạy các video độ phân giải cực cao; chơi những game nặng như Fortnite hay Rise of the Tomb Raider với trải nghiệm đồ họa chân thực, sống động.</p>
+                                        <h3 class="detail__description-sub-heading">Bàn phím Magic Keyboard hoàn toàn mới, nâng tầm trải nghiệm</h3>
+                                        <p class="detail__description-sub-paragraph">Để nâng cao hiệu suất công việc, bàn phím cũng là một yếu tố rất quan trọng. Bàn phím Magic Keyboard mới trên MacBook Pro 16 Touch Bar có cơ chế cắt kéo tinh tế với hành trình phím tối ưu 1mm, cho trải nghiệm gõ nhạy, thoải mái và yên tĩnh. Phím Esc nằm riêng biệt cạnh bên Touch Bar cho phép bạn chuyển đổi nhanh giữa các chế độ. Đồng thời các phím di chuyển cũng được thiết kế lại để bạn điều hướng nhanh hơn, nhất là khi làm việc cùng các bảng tính hay chơi game.</p>
+                                        <h3 class="detail__description-sub-heading">Âm thanh chuyên nghiệp với 6 loa ngoài stereo</h3>
+                                        <p class="detail__description-sub-paragraph">MacBook Pro 16 là một thiết bị chuyên nghiệp ở mọi tính năng, chính vì thế sản phẩm trang bị tới 6 loa ngoài mang đến trải nghiệm âm thanh stereo rộng tuyệt hảo. Nhờ hai loa Woofer khử rung, những âm trầm mạnh mẽ, rõ nét, tự nhiên hơn, cho chất lượng âm thanh phát ra vừa lớn, vừa sắc nét lại vừa chân thực. Ngoài ra, 3 micro chất lượng phòng thu giúp MacBook có thể thu âm chuyên nghiệp mà không cần phải cắm micro ngoài.</p>
+                                        <h3 class="detail__description-sub-heading">Đủ thời gian để hoàn thành mọi công việc</h3>
+                                        <p class="detail__description-sub-paragraph">Là một thiết bị mạnh mẽ nhưng MacBook Pro 16 Touch Bar cũng không quên đề cao tầm quan trọng của thời lượng pin. MacBook Pro mới trang bị pin 100 Wh lithium polymer cho thời gian sử dụng lên tới 11 giờ, bất chấp việc máy có màn hình lớn hơn. Bạn sẽ có đủ thời gian hoàn thành công việc dù không có nguồn sạc bên cạnh.</p>
+                                        <h3 class="detail__description-sub-heading">Chip bảo mật Apple T2</h3>
+                                        <p class="detail__description-sub-paragraph">Mỗi chiếc MacBook Pro mới đều đi cùng chip bảo mật Apple T2 thế hệ thứ hai, giúp dữ liệu của bạn an toàn hơn. Con chip này bao gồm một nền tảng bảo mật hỗ trợ Touch ID cung cấp khả năng lưu trữ và mã hóa an toàn. Apple T2 sẽ đồng bộ cùng hệ thống, bao gồm cả âm thanh và ổ cứng SSD để bảo mật toàn diện, an toàn nhất.</p>
+                                        <h3 class="detail__description-sub-heading">Kết nối siêu tốc bằng Thunderbolt 3</h3>
+                                        <p class="detail__description-sub-paragraph">Thunderbolt 3 trên MacBook Pro 16 Touch Bar có tốc độ băng thông cực cao và tính linh hoạt của chuẩn USB Type-C. Cổng kết nối này tích hợp cả truyền dữ liệu, sạc, đầu phát video và cung cấp tốc độ băng thông lên tới 40Gb/s. MacBook Pro 16 Touch Bar trang bị 4 cổng Thunderbolt 3, cho phép bạn thoải mái kết nối với nhiều vai trò khác nhau. Thunderbolt 3 còn tiện lợi ở chỗ bạn có thể cắm ở bất cứ chiều nào mà không cần phải để ý đến chuyện cắm ngược.</p>
+                                        <p class="detail__description-sub-paragraph">Chiếc máy tính xách tay này là hàng chính hãng tại Mỹ đạt nhiều tiêu chuẩn chất lượng khắc khe hàng đầu thế giới như CE , AS, GS… nên được nhiều tập đoàn lựa chọn làm việc ở nhiều môi trường khác nhau do máy đáp ứng tốt về đa ứng dụng, luôn an toàn đảm bảo về điện và pin của máy, Hệ thống Laptopxachtayshop muốn mang lại cho người dùng những gì bền bỉ nhất và chất lượng cao nhất từ Mỹ. Khi sử dụng người dùng sẽ cảm nhận được sự khác biệt từ chất liệu, mainboard và tuổi thọ của máy tính cũng bền hơn so với nhiều mặt hàng cùng loại trên thị trường.</p>
+                                        <p class="detail__description-sub-paragraph">Phòng IT Hệ thống Laptop xach tay shop</p>
+
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="detail__des-review">
+                                <h2 class="detail__des-review-heading">Đánh giá</h2>
+                                <div class="detail__des-review-noreview">Hiện tại không có đánh giá nào</div>
+                                <div class="detail__des-review-title">Hãy là người đầu tiên đánh giá "IPASON – Máy tính để bàn chơi game – AMD 3000G"</div>
+                                <div class="detail__des-review-form">
+                                    <div class="detail__des-review-notes">Địa chỉ email của bạn sẽ không được công bố. Các trường bắt buộc được đánh dấu *</div>
+                                    <div class="detail__des-review-form-rating">
+                                        <div class="des-review-form-rating__label">Đánh giá của bạn *</div>
+                                        <div class="des-review-form-rating__stars">
+                                            <input type="radio" name="rate" id="rate-5" class="">
+                                            <label for="rate-5" class="star-5 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-4" class="">
+                                            <label for="rate-4" class="star-4 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-3" class="">
+                                            <label for="rate-3" class="star-3 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-2" class="">
+                                            <label for="rate-2" class="star-2 fa-solid fa-star"></label>
+
+                                            <input type="radio" name="rate" id="rate-1" class="">
+                                            <label for="rate-1" class="star-1 fa-solid fa-star"></label>
+                                        </div>
+                                    </div>
+                                    <div class="des-review-form__form-comment">
+                                        <div for="" class="des-review-form__form-comment-label">Nhận xét của bạn *</div>
+                                        <textarea name="" id="" cols="30" rows="4" class="des-review-form__form-comment-input"></textarea>
+                                    </div>
+                                    <div class="des-review-form__form-author">
+                                        <div class="des-review-form__form-author-label">Tên*</div>
+                                        <input type="text" class="des-review-form__form-author-input">
+                                    </div>
+                                    <div class="des-review-form__form-email">
+                                        <div for="" class="des-review-form__form-email-label">Email*</div>
+                                        <input type="text" class="des-review-form__form-email-input">
+                                    </div>
+                                    <div class="des-review-form__remmember">
+                                        <input type="checkbox" class="des-review-form__remmember-checkbox" id="remember">
+                                        <label for="remember" class="des-review-form__remmember-label">Lưu tên, email và trang web của tôi trong trình duyệt này cho lần bình luận tiếp theo.</;>
+                                    </div>
+                                    <button class="des-review-form__btn">Gửi</button>
+                                </div>
+                                
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Begin Related -->
+                <div class="latest detail__latest">
+                    <div class="grid wide">
+                        <div class="latest-heading">
+                            <div class="latest__header-wrap">
+                                <div class="header-label">RELATED</div>
+                                <div class="latest__header-body">
+                                    <div class="latest__header-title">Sản phẩm liên quan</div>
+                                    <div class="latest__header-text">Sản Phẩm Mới Ra Lò: Tích Hợp Công Nghệ Hiện Đại</div>
+                                </div>
+                            </div>
+                            <div class="latest__btn-wrap">
+                                <a href="../nav/about.html" class="view-all-btn">
+                                    <span class="view-all-btn__label">Xem tất cả</span>
+                                    <i class="view-all-btn__icon fa-solid fa-chevron-right"></i>
+                                </a>
+                            </div>
+                        </div>
+    
+                        <div class="row no-gutters latest__product-list">
+                            <div class="col l-2">
+                                <a href="../details/acer3.html" class="product-item">
+                                    <img src="../../assets/img/acer3.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Acer Nitro 5 Tiger AN515 i5 12500H M2.SSD 512GB FHD 144Hz NVIDIA GeForce RTX 3050</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">22.390.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/mac4.html" class="product-item">
+                                    <img src="../../assets/img/mac4.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Macbook Air 13.3 inch M1 2020 RAM 8GB M2.SATA 256GB silver</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">18.590.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/dell4.html" class="product-item">
+                                    <img src="../../assets/img/dell4.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Dell Inspiron 14 7435 2-in-1 R5 7530U RAM 8GB M2.SSD 512GB FHD</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">17.790.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/acer1.html" class="product-item">
+                                    <img src="../../assets/img/acer1.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Acer Aspire 5 A515 56 36UT i3 1115G4 RAM 8GB FHD</h2>
+                                    <div class="product-item__price">                                    
+                                        <div class="product-item__old-price">10.350.000<sup>₫</sup></div>
+                                        <div class="product-item__new-price">10.190.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/asus3.html" class="product-item">
+                                    <img src="../../assets/img/asus3.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Asus TUF Gaming FX506HC i5 11400H RAM 8GB M2.SSD 512GB NVIDIA GeForce RTX 3050 4GB</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">19.090.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                            <div class="col l-2">
+                                <a href="../details/mac2.html" class="product-item">
+                                    <img src="../../assets/img/mac2.JPG" alt="" class="product-item__img">
+                                    <h2 class="product-item__title">Macbook Pro 13 inch 2020 M1 RAM 8GB SSD 256GB Touchbar Gray</h2>
+                                    <div class="product-item__price">                                    <!--  -->
+                                        <!-- <div class="product-item__old-price">$40</div> -->
+                                        <div class="product-item__new-price">29.890.000<sup>₫</sup></div>
+                                    </div>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- End Related -->
+            </div>
+        </div>
+        <!-- End Container -->
+
+        <!-- Begin Footer -->
+        <footer class="footer">
+            <div class="newsletter">
+                <div class="grid wide">
+                    <div class="newsletter__background-overlay"></div>
+                    <div class="row no-gutters">
+                        <div class="col l-12">
+                            <div class="newsletter__body">
+                                <h2 class="newsletter__label">Newsletter Sign Up</h2>
+                                <div class="newsletter__title">Nhận thông tin mới nhất về sản phẩm và chương trình khuyến mãi của chúng tôi.</div>
+                                <div class="newsletter__wrap">
+                                    <input type="text" name="" id="" class="newsletter__input" placeholder="Email address">
+                                    <button class="newsletter__btn">Đăng kí</button>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="contact">
+                <div class="grid wide">
+                    <div class="contact__container">
+                        <div class="contact__about-us">
+                            <div class="contact__about-us-title">Về chúng tôi</div>
+                            <p class="contact__about-us-text">Chúng tôi luôn đề cao chất lượng và sự hài lòng của khách hàng</p>
+                            <img src="../../assets/img/logo-kompi-light.png" alt="" class="contact__about-us-img">
+                        </div>
+                        <div class="contact__location">
+                            <div class="contact__location-title">Địa điểm</div>
+                            <div class="contact__location-address">Số 2 Đường Võ Oanh, Phường 25, Quận Bình Thạnh, Tp HCM</div>
+                            <div class="contact__location-mail">customer@kompi.com</div>
+                            <div class="contact__location-phone">(+021) 345 678 910</div>
+                        </div>
+                        <div class="contact__service">
+                            <div class="contact__service-title">DỊCH VỤ KHÁCH HÀNG</div>
+                            <div class="contact__service-body">
+                                <a href="../nav/about.html" class="contact__service-option">Trung tâm hỗ trợ</a>
+                                <a href="../nav/about.html" class="contact__service-option">Theo dõi đơn hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Trả hàng</a>
+                                <a href="../nav/about.html" class="contact__service-option">Chính sách hoàn trả</a>
+                                <a href="../nav/about.html" class="contact__service-option">Riêng tư&Bảo mật</a>
+                                <a href="../nav/about.html" class="contact__service-option">Feedback</a>
+                            </div>
+                        </div>
+                        <div class="contact__quick-link">
+                            <div class="contact__quick-link-title">LIÊN KẾT</div>
+                            <div class="contact__quick-link-body">
+                                <a href="../nav/about.html" class="contact__quick-link-option">Liên hệ chúng tôi </a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Về chúng tôi</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Hình thức thanh toán</a>
+                                <a href="../nav/about.html" class="contact__quick-link-option">Sự nghiệp</a>
+                            </div>
+                        </div>
+                        <div class="contact__brands">
+                            <div class="contact__brands-title">BRANDS</div>
+                            <div class="contact__brands-body">
+                                <a href="../nav/about.html" class="contact__brands-option">Kinh doanh</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Nhãn hiệu toàn cầu</a>
+                                <a href="../nav/about.html" class="contact__brands-option">ABS</a>
+                                <a href="../nav/about.html" class="contact__brands-option">Rosewill</a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="social">
+                <div class="social__background-overlay"></div>
+                <div class="grid wide">
+                    <div class="row no-gutters social__container">
+                        <div class="col l-6">
+                            <div class="social__heading">© 2023 Kompi. Powered by TeeDev</div>
+                        </div>
+                        <div class="col l-6">
+                            <div class="social__wrapper">
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-facebook-f"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-twitter"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-youtube"></i>
+                                </a>
+                                <a href="../nav/about.html" class="social__icon-link">
+                                    <i class="social__icon fa-brands fa-instagram"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </footer>
+        <!-- End Footer -->
+    </div>
+
+    
+
+    <!-- Modal layout -->
+    <div class="modal js-modal">
+        <div class="modal__overlay js-modal__overlay"></div>
+
+        <div class="modal__body">
+            <div class="modal__inner">
+                <!-- Search-form -->
+                <div class="modal__search-form js-modal__search-form">
+                    <input class="search-form__input" type="text" placeholder="Tìm kiếm..." name="" id="" autofocus="focus">
+                    <i class="search-form__input-icon fa-solid fa-xmark"></i>
+                </div>
+                <!-- cart-list -->
+                <div class="modal__cart-list js-modal__cart-list">
+                    <i class="modal__cart-list-icon fa-solid fa-xmark"></i>
+                    <div class="modal__cart-list-body">
+                        <div class="modal__cart-list-label">Không có sản phẩm.</div>
+                    </div>
+                </div>
+                <!-- Video about -->
+                <div class="modal__video-about js-modal__video-about">
+                    <i class="modal__video-about-icon fa-solid fa-xmark"></i>
+                    <div class="modal__container">
+                        <iframe width="1300" height="600" src="https://www.youtube.com/embed/fmSmcSfC5fk?si=_Z_w0dXQRguTp0mt&autoplay=0&mute=0&rel=0" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script src="../../assets/js/home.js"></script>
+
+    <script src="../../assets/js/detail_Product.js"></script>
+</body>
+</html>
